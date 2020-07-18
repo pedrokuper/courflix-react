@@ -5,22 +5,22 @@
 }
 
 .navbar-wrapper {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   padding: 20px;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  z-index: 100;
 
   .courflix-logo {
     margin: 0 35px;
   }
 
   .navbar {
-    
-  
     .navbar-list {
       display: flex;
       list-style: none;
-      
-      
+
       .navbar-link {
         color: #fff;
         margin-left: 25px;
