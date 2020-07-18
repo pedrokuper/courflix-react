@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-wrapper {
+  display: flex;
+  padding: 20px;
+  background-color: #333;
+
+  .courflix-logo {
+    margin: 0 35px;
+  }
+
+  .navbar {
+    
+  
+    .navbar-list {
+      display: flex;
+      list-style: none;
+      
+      
+      .navbar-link {
+        color: #fff;
+        margin-left: 25px;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

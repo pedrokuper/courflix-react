@@ -1,21 +1,24 @@
 import React from 'react';
+import './style.scss'
+import logo from '../../assets/logo/logo.png'
+
 
 class Navbar extends React.Component {
   render() {
     return(
 
-      <div>
-      <span>Logo de Courflix</span>
-        <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Series</li>
-            <li>Películas</li>
-            <li>Agregados recientemente</li>
-            <li>Mi lista</li>
+      <heading className="navbar-wrapper">
+        <img src={logo} className="courflix-logo" alt="Logo de Courflix"></img>
+        <nav className="navbar">
+          <ul className="navbar-list">
+            <li className="navbar-link">Inicio</li>
+            <li className="navbar-link">Series</li>
+            <li className="navbar-link">Películas</li>
+            <li className="navbar-link">Agregados recientemente</li>
+            <li className="navbar-link">Mi lista</li>
           </ul>
         </nav>
-      </div>
+      </heading>
     )
   }
 }
