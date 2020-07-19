@@ -1,13 +1,8 @@
 import React from "react";
 import "./style.scss";
-import Button from '../Button'
+import Button from "../Button";
 
 class Hero extends React.Component {
-
-
-  
-
-
   render() {
     return (
       <div className="hero--wrapper">
@@ -16,10 +11,9 @@ class Hero extends React.Component {
             <h2 className="hero--subtitle">Original de COURFLIX</h2>
             <h1 className="hero--title">BLACK SUMMER</h1>
             <h3 className="hero--mobile">2019 - 16+ - 1 temporada</h3>
-            <div  className="hero--buttons">
-
-            <Button/>
-            <Button/>
+            <div className="hero--buttons">
+              <Button buttons={this.props.buttons.play} />
+              <Button buttons={this.props.buttons.miList} />
             </div>
             {/* <div className="hero--buttons">
               <a href="#" className="hero-button play">
