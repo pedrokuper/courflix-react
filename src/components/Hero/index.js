@@ -1,7 +1,13 @@
 import React from "react";
 import "./style.scss";
+import Button from '../Button'
 
 class Hero extends React.Component {
+
+
+  
+
+
   render() {
     return (
       <div className="hero--wrapper">
@@ -10,14 +16,19 @@ class Hero extends React.Component {
             <h2 className="hero--subtitle">Original de COURFLIX</h2>
             <h1 className="hero--title">BLACK SUMMER</h1>
             <h3 className="hero--mobile">2019 - 16+ - 1 temporada</h3>
-            <div className="hero--buttons">
+            <div  className="hero--buttons">
+
+            <Button/>
+            <Button/>
+            </div>
+            {/* <div className="hero--buttons">
               <a href="#" className="hero-button play">
                 Reproducir
               </a>
               <a href="#" className="hero-button my-list">
                 + Mi lista
               </a>
-            </div>
+            </div> */}
             <div className="hero--description">
               <p className="hero--text">Ve la temporada 1</p>
               <p className="hero--plot">
