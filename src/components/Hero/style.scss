@@ -32,6 +32,10 @@
         margin: 25px 0;
         display: flex;
 
+        .red {
+          background-color: red;
+        }
+
         .hero-button {
           text-decoration: none;
           background: rgba(157, 151, 151, 0.541521);

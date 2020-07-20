@@ -5,15 +5,12 @@ import Hero from "./components/Hero";
 
 class App extends React.Component {
   render() {
-    const button = {
-      play: "Reproducir",
-      miList: "Mi lista"
-    };
+    
 
     return (
       <div>
         <Navbar />
-        <Hero buttons={button} />
+        <Hero />
       </div>
     );
   }
