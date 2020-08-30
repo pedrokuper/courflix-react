@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import "./style.scss";
+import InnerCarousel from "../Inner Carousel";
 
 class Carousel extends React.Component {
   render() {
-    return(
-      <div></div>
-    )
+    return (
+      <div className="carousel">
+        <h2 className="title">Series</h2>
+        <InnerCarousel />
+      </div>
+    );
   }
 }
 

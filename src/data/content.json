@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Iron Fist",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/5tDhYL3B/iron-fist.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Rick and Morty",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/LXdW6R9v/rick-and-morty.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Seven Deadly Sins",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/J0rPGz93/the-seven-deadly-sins.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Lucifer",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/8cm903V4/lucifer.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The Protector",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/9Xd604q9/preview-3.jpg",
+    "progress": ""
+  },
+  {
+    "name": "La orden Secreta",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/C5g9J09d/la-orden-secretra.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The End of the Fucking World",
+    "type": "series",
+    "thumbnail": "https://i.postimg.cc/t4MfwW8K/the-end-of-the-f.jpg",
+    "progress": ""
+  }
+]

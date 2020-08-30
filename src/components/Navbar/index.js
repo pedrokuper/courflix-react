@@ -1,13 +1,11 @@
-import React from 'react';
-import './style.scss'
-import logo from '../../assets/logo/logo.png'
-
+import React from "react";
+import "./style.scss";
+import logo from "../../assets/logo/logo.png";
 
 class Navbar extends React.Component {
   render() {
-    return(
-
-      <heading className="navbar-wrapper">
+    return (
+      <div className="navbar-wrapper">
         <img src={logo} className="courflix-logo" alt="Logo de Courflix"></img>
         <nav className="navbar">
           <ul className="navbar-list">
@@ -18,8 +16,8 @@ class Navbar extends React.Component {
             <li className="navbar-link">Mi lista</li>
           </ul>
         </nav>
-      </heading>
-    )
+      </div>
+    );
   }
 }
 
