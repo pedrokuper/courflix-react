@@ -1,6 +1,7 @@
 .hero--buttons {
-  
   margin: 25px 0;
+  display: inline-flex;
+  flex-wrap: wrap;
 
   .hero-button {
     text-decoration: none;

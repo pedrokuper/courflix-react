@@ -28,30 +28,7 @@
         display: none;
       }
 
-      .hero--buttons {
-        margin: 25px 0;
-        display: flex;
-
-        .red {
-          background-color: red;
-        }
-
-        .hero-button {
-          text-decoration: none;
-          background: rgba(157, 151, 151, 0.541521);
-          margin-right: 20px;
-          padding: 20px 80px;
-          border-radius: 12px;
-          font-size: 400;
-        }
-
-        & :link,
-        :visited,
-        :active {
-          text-decoration: none;
-          color: #fff;
-        }
-      }
+     
 
       .hero--description {
         line-height: 2.5rem;

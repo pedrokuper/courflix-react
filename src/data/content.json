@@ -14,8 +14,9 @@
   {
     "name": "Seven Deadly Sins",
     "type": "series",
-    "thumbnail": "https://i.postimg.cc/J0rPGz93/the-seven-deadly-sins.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/2Caqkb1m9qL6hJu7ftvE7LbRYJt.jpg",
+    "progress": "",
+    "desc": "Un grupo de tiranos tomó el trono. Ahora la princesa deberá buscar a un grupo de caballeros que la ayude a recuperar el reino."
   },
   {
     "name": "Lucifer",
@@ -39,6 +40,90 @@
     "name": "The End of the Fucking World",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/t4MfwW8K/the-end-of-the-f.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The End of the Fucking World",
+    "type": "keepWatching",
+    "thumbnail": "https://i.postimg.cc/t4MfwW8K/the-end-of-the-f.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The Walking Dead",
+    "type": "keepWatching",
+    "thumbnail": "https://image.tmdb.org/t/p/original/xVzvD5BPAU4HpleFSo8QOdHkndo.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Dark",
+    "type": "keepWatching",
+    "thumbnail": "https://i.postimg.cc/wj48zSRb/dark.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Mindhunter",
+    "type": "keepWatching",
+    "thumbnail": "https://i.postimg.cc/Z5R2wVsP/mindhunter.png",
+    "progress": ""
+  },
+  {
+    "name": "Westworld",
+    "type": "keepWatching",
+    "thumbnail": "https://image.tmdb.org/t/p/original/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Breaking Bad",
+    "type": "keepWatching",
+    "thumbnail": "https://image.tmdb.org/t/p/original/scGGbGjVbNyqKbJ6QnlPPY5je0v.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The Sopranos",
+    "type": "keepWatching",
+    "thumbnail": "https://image.tmdb.org/t/p/original/jQaEgaZlY0zxsaFAyrJB4wfwHo8.jpg",
+    "progress": ""
+  },
+  {
+    "name": "The Office",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/1UoKSv2f1OCiZt8XEWywz27nqSr.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Game of Thrones",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Pulp Fiction",
+    "type": "lastAdded",
+    "thumbnail": "https://i.postimg.cc/Dwfmhr3H/pulp-fiction.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Six Feet Under",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/vhqYfbGYH8tVMWpq74Pj0Y1W6dM.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Trainspotting",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Alien",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
+    "progress": ""
+  },
+  {
+    "name": "Se7en",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
     "progress": ""
   }
 ]

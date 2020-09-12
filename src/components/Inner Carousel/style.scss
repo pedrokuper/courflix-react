@@ -1,29 +1,49 @@
-.slick-arrow {
-  background-color: white;
+.carousel-container {
+  margin: 0px 20px;
 }
 
-img {
-  width: 350px;
-  margin: 0 50px;
+.carousel-thumbnail {
+  max-width: 350px;
 }
 
 .slides {
   position: relative;
+  width: 100%;
 
-  .slick-prev {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-    margin-left: 10px;
-    font-size: 100px;
-  }
+  .slick-prev,
   .slick-next {
     position: absolute;
     top: 50%;
-    padding: 10px;
+    z-index: 100;
+    margin: 0px 25px;
+    opacity: 30%;
+
+    &:hover {
+      opacity: 100;
+    }
+
+    &::before,
+    ::after {
+      font-family: "Font Awesome 5 Free";
+      font-size: 2.5rem;
+      background-color: rgba(51, 51, 51, 0.493);
+      padding: 15px;
+      border-radius: 50%;
+    }
+  }
+
+  .slick-prev {
+    left: 0;
+    &::before,
+    ::after {
+      content: "\f359";
+    }
+  }
+  .slick-next {
     right: 0;
-    z-index: 1;
-    margin-right: 10px;
+    &::before,
+    ::after {
+      content: "\f35a";
+    }
   }
 }

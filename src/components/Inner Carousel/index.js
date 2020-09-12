@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import "./style.scss";
-import content from "../../data/content.json";
 import "slick-carousel/slick/slick-theme.css";
 
 class InnerCarousel extends React.Component {
@@ -13,22 +13,34 @@ class InnerCarousel extends React.Component {
       slidesToShow: 5,
       slidesToScroll: 1,
       draggable: true,
-      centerMode: true,
+      swipeToSlide: true,
+      centerMode: false,
       className: "slides",
-      lazyLoad: "ondemand",
+      lazyLoad: true,
       edgeFriction: 5
     };
+
+    const { content } = this.props;
+
     return (
-      <div>
+      <div className="carousel-container">
         <Slider {...settings}>
-          {content.map((content) => {
+          {content.map((content, key) => {
             return (
-              <div>
-                <img
-                  src={content.thumbnail}
-                  alt={content.name + " thumbnail"}
-                />
-              </div>
+              <>
+                <Link
+                  to={`/contenido/${content.name
+                    .replace(/\s/g, "-")
+                    .toLowerCase()}`}
+                >
+                  <img
+                    className="carousel-thumbnail"
+                    key={key}
+                    src={content.thumbnail}
+                    alt={content.name + " thumbnail"}
+                  />
+                </Link>
+              </>
             );
           })}
         </Slider>

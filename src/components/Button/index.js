@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.scss";
 
 class Button extends React.Component {
   render() {
     return (
-      <div>
-        <a href="#" className="hero-button play">
+      <div className="hero--buttons">
+        <a href="#" className="hero-button">
           {this.props.title}
         </a>
       </div>
