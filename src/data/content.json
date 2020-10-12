@@ -3,62 +3,529 @@
     "name": "Iron Fist",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/5tDhYL3B/iron-fist.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/dNzBtV7f0Q3EeX2qrDZDh28gxjA.jpg",
+    "plot": "Fifteen years after being presumed dead in a plane crash, Danny Rand mysteriously returns to New York City determined to reclaim his birthright and family company. However, when a long-destined enemy rises in New York, this living weapon is forced to choose between his family’s legacy and his duties as the Iron Fist.",
+    "seasons": 2,
+    "similarity": 95,
+    "year": 2017,
+    "chapters": [
+      {
+        "name": "1. Snow Gives Way",
+        "description": "After being declared dead 15 years earlier, Danny Rand returns to New York. But his welcome is a far cry from what he'd hoped.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/mpssG2VDMgprnaE6xqGYFeGOSlo.jpg"
+      },
+      {
+        "name": "2. Shadow Hawk Takes Flight",
+        "description": "Danny struggles with his new surroundings, Colleen dishes out a harsh lesson, and Joy sends an unconventional message.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/zEPiPE05CV7tAhzkjWxA2Zt9mJs.jpg"
+      },
+      {
+        "name": "3. Rolling Thunder Cannon Punch",
+        "description": "Joy proves herself a shrewd businessperson, Danny recalls a painful memory, and Colleen puts her talents to good use.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/pVf4U82dQ9ZGblZCpC8dtib9qKu.jpg"
+      },
+      {
+        "name": "4. Eight Diagram Dragon Palm",
+        "description": "Danny makes a shocking discovery and a radical pricing proposal. Colleen's extracurricular activities goes viral, and Ward issues a stern warning.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/zktjuVGtP7tnsdSqBKc7vvNiZLK.jpg"
+      },
+      {
+        "name": "5. Under Leaf Pluck Lotus",
+        "description": "An insidious new drug hits New York. Danny recruits Colleen for the fight, and Claire discovers that credit cards can have many uses.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/79yXgnqmSV4iJsLlFUPUh7a8B3B.jpg"
+      },
+      {
+        "name": "6. Immortal Emerges from Cave",
+        "description": "Danny receives an invitation like no other. Colleen and Claire face a difficult choice. A worried Joy confronts her brother.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/niNrZvfZBZYqvav8etUEscan8sN.jpg"
+      },
+      {
+        "name": "7. Felling with Tree Routes",
+        "description": "Danny faces his fear, and Colleen meets her match. Joy makes a hasty decision while Ward struggles to accept his sister's admiration.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/truFbrTeZ0PwoDwGglnE0pDcKX0.jpg"
+      },
+      {
+        "name": "8. The Blessing of Many Fractures",
+        "description": "Ward's loyalty is tested. Danny discovers a rogue division, and the mysterious Bakuto visits Colleen's dojo unannounced.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/2oTt0pMPdCAApBeYRCH3h553vFS.jpg"
+      },
+      {
+        "name": "9. The Mistress of All Agonies",
+        "description": "Madame Gao plays mind games. Ward's old habits catch up with him, and Danny discovers that he still has much to learn about being the Iron Fist.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/pBuChPEkqvtbMtj1JvqtpsscqT1.jpg"
+      },
+      {
+        "name": "10. Black Tiger Steals Heart",
+        "description": "Exhausted from fighting, Danny tries to recharge with Bakuto's help. Meanwhile, Rand's management gets another shakeup.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/6iadSp7foVr5bQIQCaBMiM1V2Jc.jpg"
+      },
+      {
+        "name": "11. Lead Horse Back to Stable",
+        "description": "Claire uses her improvisational skills, and Colleen gets conflicting information. Danny years to be more than just a destroyer.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/5magsZsGBNa02oozfWxsOgGS24A.jpg"
+      },
+      {
+        "name": "12. Bar the Big Boss",
+        "description": "Ward receives an offer with strings attached. Davos advocates for an extreme solution, and a deadly duel gets personal.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/a4Hl5UiGH12d4WEbuTIx144JXA6.jpg"
+      },
+      {
+        "name": "13. Dragon Plays with Fire",
+        "description": "In a desperate search to clear his name, Danny learns a terrible truth that places him on a new path.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/3lo5nzjrzCSnQXcQD7YMJkUWO31.jpg"
+      }
+
+    ]
   },
   {
     "name": "Rick and Morty",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/LXdW6R9v/rick-and-morty.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/1HcUlfwNdpLzmKa6ZCYJCjXa8lB.jpg",
+    "plot": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+    "seasons": 4,
+    "similarity": 99,
+    "year": 2013,
+    "chapters": [
+      {
+        "name": "1. Pilot",
+        "description": "Rick moves in with his daughter's family and establishes himself as a bad influence on his grandson, Morty.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/oWaKdUeMOlVZem3v9DWsdDGlTuY.jpg"
+      },
+      {
+        "name": "2. Lawnmower Dog",
+        "description": "Rick and Morty try to incept Morty's math teacher into giving Morty an 'A'. Meanwhile, Rick gives Jerry a device to train their dog, Snuffles.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/r3CzGadu9EEunFtuTqmXxMRkX5V.jpg"
+      },
+      {
+        "name": "3. Anatomy Park",
+        "description": "Christmas day, Rick's friend, Reuben, comes over for his annual medical checkup. Meanwhile Jerry learns his parents have a new friend.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/3cp6QrExDBQUFGcOu43NBtaugNY.jpg"
+      },
+      {
+        "name": "4. M. Night Shaym-Aliens!",
+        "description": "Rick and Morty try to get to the bottom of a mystery in this M. Night Shyamalan style twistaroony of an episode!",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/dAlrn9OIvMuaebSCK3JJVYn8qnu.jpg"
+      },
+      {
+        "name": "5. Meeseeks and Destroy",
+        "description": "When Morty thinks Rick's adventures are too dangerous, he challenges Rick to let him lead one instead.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/9nh9ZpxOyCJMD73biS2h3CvHfm2.jpg"
+      },
+      {
+        "name": "6. Rick Potion #9",
+        "description": "Rick provides Morty with a love potion to get his dream girl, only for the serum to backfire and create a living Cronenberg nightmare.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/cuNE6h2oSvm1gvxOzFIbswjwAjq.jpg"
+      },
+      {
+        "name": "7. Raising Gazorpazorp",
+        "description": "Morty convinces Rick to buy him a sexy robot. Later Rick and Summer spend some quality time together.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/ctFz5NLR4kRwpXsdC6xvqQI8U1h.jpg"
+      },
+      {
+        "name": "8. Rixty Minutes",
+        "description":"Rick hacks the cable box, but the family are distracted by another one of his inventions.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/HaTpHoQw2DWFAtHgGKn4gLOEaX.jpg"
+      },
+      {
+        "name": "9. Something Ricked This Way Comes",
+        "description": "Rick battles the devil and upsets Summer. Meanwhile, Jerry and Morty hang out.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/daA9q3U3ibIcm5OGuklySeIsQWV.jpg"
+      },
+      {
+        "name": "10. Close Rick-Counters of the Rick Kind",
+        "description": "Rick and Morty have a falling out when Rick is approached by some familiar associates.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/8gOouaPQhfB8cC01sYyFLYgTcRq.jpg"
+      },
+      {
+        "name": "11. Ricksy Business",
+        "description": "Beth and Jerry go away on a trip, so Rick decides to throw a party.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/mLJbMSLaB8CZmr07GJGH9TiG4PL.jpg"
+      }
+    ]    
   },
   {
-    "name": "Seven Deadly Sins",
+    "name": "The Haunting of Hill House",
     "type": "series",
-    "thumbnail": "https://image.tmdb.org/t/p/original/2Caqkb1m9qL6hJu7ftvE7LbRYJt.jpg",
-    "progress": "",
-    "desc": "Un grupo de tiranos tomó el trono. Ahora la princesa deberá buscar a un grupo de caballeros que la ayude a recuperar el reino."
+    "thumbnail": "https://image.tmdb.org/t/p/original/ivOuQhw5OiWiF0wX4nAovoT8xB5.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/dQF17lG4OZ3pC4QD9iNjaMS96gO.jpg",
+    "plot": "The Crains, a fractured family, confront haunting memories of their old home and the terrifying events that drove them from it.",
+    "seasons": 2,
+    "similarity": 98,
+    "year": 2018,
+    "chapters": [
+      {
+        "name": "1. Steven Sees a Ghost",
+        "description": "While investigating a ghost story for his latest novel, a skeptical Steven receives a call from his sister that triggers a chain of fateful events.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/iyQVb3oOihUkOfkm4tPhpDiVpiu.jpg"
+      },
+      {
+        "name": "2. Open Casket",
+        "description": "A devastating family tragedy stirs memories of traumatic losses, reminding Shirley of her first brush with death -- and awakening long-dormant fears.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/pS3U6UYKhbmcdwvP6HmtpxgjxzE.jpg"
+      },
+      {
+        "name": "3. Touch",
+        "description": "Keenly perceptive Theo sees shades of herself in a troubled young patient, a girl who's haunted by the menacing grin of 'Mr. Smiley'.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/sHK2YkmWciiQkPtmX2rDympCq4A.jpg"
+      },
+      {
+        "name": "4. The Twin Thing",
+        "description": "Still wrestling with addiction -- and an unshakable fright -- a frantic Luke tries to save a friend while sensing his twin sister is in danger.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/eJCArocwASesR7g3n77WtVlQnN6.jpg"
+      },
+      {
+        "name": "5. The Bent-Neck Lady",
+        "description": "A dark specter with an unsettling silhouette has haunted Nell since she was a girl. Now 'the Bent-Neck Lady' is back -- and she's calling Nell home.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/VOSdSM1jdhxR8M33ldL70biAmd.jpg"
+      },
+      {
+        "name": "6. Two Storms",
+        "description": "It's a reunion for all the wrong reasons when Hugh flies in for the funeral, coming face to face with his estranged children on a dark, stormy night.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/9mNI0QSqKYAgpFQkfTNVPuwKwtc.jpg"
+      },
+      {
+        "name": "7. Eulogy",
+        "description": "As the Cranes gather to say their final goodbyes, a flashback reveals Mr. Dudley's connection to the house -- and exposes a secret in the walls.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/iG8jpN9OcwIdOWBoC17dJet1X83.jpg"
+      },
+      {
+        "name": "8. Witness Marks",
+        "description":"A familiar terror revisits Shirley and Theo on Halloween night as Hugh and Steve go looking for Luke, who disappeared on a deadly errand.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/3ypMZYsPpdLZEK9K5famZSycqUZ.jpg"
+      },
+      {
+        "name": "9. Screaming Meemies",
+        "description": "While struggling to discern dreams from reality, Olivia fears for her children's safety, a motherly instinct Mrs. Dudley urges her to embrace.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/daA9q3U3ibIcm5OGuklySeIsQWV.jpg"},
+      {
+        "name": "10. Silence Lay Steadily",
+        "description": "The Red Room's contents are finally revealed as the Cranes return to the house to confront old ghosts, unspeakable secrets and an insatiable evil.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/oIRkUYbf7dQBjq6kZsjrMrPd49x.jpg"
+      }
+    ]
   },
   {
     "name": "Lucifer",
-    "type": "series",
+    "type": "keepWatching",
     "thumbnail": "https://i.postimg.cc/8cm903V4/lucifer.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/cA0PlTcuvKZpRwQQZqCPQ6Cwj1w.jpg",
+    "plot": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+    "seasons": 5,
+    "similarity": 85,
+    "year": 2016,
+    "chapters": [
+      {
+        "name": "1. Pilot",
+        "description": "Upon leaving hell, Lucifer Morningstar retreats to Los Angeles for a more exciting life. When the murder of a friend connects him with LAPD detective Chloe Decker, Lucifer becomes intrigued with the idea of punishing criminals, sending the devil himself into a struggle between good and evil.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/aSl1ASgOlNkukh0kalKCvGKZeb4.jpg"
+      },
+      {
+        "name": "2. Lucifer, Stay. Good Devil.",
+        "description": "When a movie star's son is killed after being chased by the paparazzi, Chloe takes a deep look into the case with a little help from Lucifer. Meanwhile, Maze and Amenadiel continue to encourage Lucifer to go back to hell.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/ck8mSXXijr8xIXNqn2hbx4b2HKj.jpg"
+      },
+      {
+        "name": "3. The Would-Be Prince of Darkness",
+        "description": "When a 22-year-old future superstar quarterback wakes up to find a dead girl floating in his swimming pool, he turns to his friend, Lucifer, for help. Lucifer enlists Chloe to investigate the case, which leads to the world of big money sports and people who will literally kill to be number one.",
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/eTRQGrNXhg3t1Z3dhNLOsGxomxm.jpg"
+      },
+      {
+        "name": "4. Manly Whatnots",
+        "description": "In an effort to get over his infatuation with Chloe, Lucifer decides that he must seduce her. Meanwhile the two team up on a missing girl case and Amenadiel confronts Maze about his concerns about Lucifer.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/jT6UcjnRP1MH8zUf0zL7NFGqhNQ.jpg"
+      },
+      {
+        "name": "5.Sweet Kicks",
+        "description": "After a shooting occurs at a fashion show and a young woman is killed, Lucifer becomes intrigued by the danger of the situation and begs Chloe to get in on the case. Meanwhile, when Maze admits to Amenadiel that she wants to go back to hell, he sets his sights on Dr. Linda.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/nrRGeYit3Tvr2NocDmKEA5bH9sz.jpg"
+      },
+      {
+        "name": "6. Favorite Son",
+        "description": "Lucifer bails on Chloe when he becomes bored with her investigation into a ruthless biker gang murder. However, when he discovers something was stolen during the crime that was very personal to him, he demands that Chloe let him rejoin the case.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/iCPIYG06s4rEUAffTI7D1xuVPvy.jpg"
+      },
+      {
+        "name": "7. Wingman",
+        "description": "In attempt to find the contents of his stolen container, Lucifer enlists the help of an unlikely ally. Meanwhile, Chloe digs deeper into the Palmetto case, uncovering a lead that might finally expose the truth.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/3QkYv78ZlxYf54sLO71xYnoqzMr.jpg"
+      },
+      {
+        "name": "8. Et Tu, Doctor?",
+        "description":"When a therapist is murdered, Lucifer and Chloe enlist the help of Dr. Linda to look into possible suspects. Meanwhile, Malcolm confronts Chloe about the night he was shot, and Lucifer experiences his first bout of jealousy.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/kCvPxVQ0OLyQG7VwPOzHTHGsbKV.jpg"
+      },
+      {
+        "name": "9. A Priest Walks Into A Bar",
+        "description": "A priest seeks out Lucifer's help when he suspects an underground drug operation has set up shop at a neighborhood youth center. Meanwhile, Malcolm manipulates a way to keep an eye on Dan..",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/guWoA5SLNMVMo6J3vaZSMIEGyXh.jpg"},
+      {
+        "name": "10. Pops",
+        "description": "Lucifer and Chloe are tasked with solving the murder of a prominent restaurateur. When they meet his son, they suspect he played a part in the death. Meanwhile, Chloe's mom returns home, sending Chloe's life into upheaval, as Lucifer learns his own dysfunctional family isn't nearly as unique as he thought.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/aqCLf3sbEvGQfLlKg1cYccu1hYK.jpg"
+      },
+      {
+        "name": "11. St. Lucifer",
+        "description": "When philanthropist Tim Dunlear is found dead, Lucifer explores his good side by becoming a benefactor for Tim’s glitzy Los Angeles charity.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/kXmtIabvZ9bj9yDbiLsRLeCbxGa.jpg"
+      },
+      {
+        "name": "12. #TeamLucifer",
+        "description": "When a woman is found dead on the Hollywood Walk of Fame - with her body twisted into the shape of a pentagram - the investigation leads Lucifer and team into the world of Satanists, where they soon realize, evil doesn't always live where we expect it to.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/jycEjP6R7cd23FasOdNp61d8Xk1.jpg"
+      },
+      {
+        "name": "13. Take Me Back To Hell",
+        "description": "When Lucifer is framed for murder, he and Chloe must work together to clear his name and prove the identity of the true killer.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/fUOlgpJgR9GBHBvLqad0zZUk0aO.jpg"
+      }
+    ],
+    "progress": 35
   },
   {
-    "name": "The Protector",
+    "name": "Cobra Kai",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/9Xd604q9/preview-3.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
+    "plot": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+    "seasons": 2,
+    "similarity": 98,
+    "year": 2018,
+    "chapters": [
+      {
+        "name": "1. Ace Degenerate",
+        "description": "Thirty years after the events of the 1984 All Valley Karate Tournament, Johnny Lawrence’s life has taken a rocky turn as he tries to forget a past that constantly haunts him. He seeks redemption by reopening the infamous Cobra Kai karate dojo. But the LaRusso-Lawrence rivalry of yesteryear is reignited when their lives become intertwined with the next generation of 'karate kids.'",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/gBi0WoqKFTmY1bJ1XTHefQk22kq.jpg"
+      },
+      {
+        "name": "2. Strike First",
+        "description": "Present day Daniel LaRusso lives a charmed life. That is, until he sees that the Cobra Kai dojo, the source of his teenage angst and rivalry, has been reestablished by Johnny Lawrence. Struggling to launch the business, Johnny starts teaching karate to his teenage neighbor Miguel. Daniel faces his former opponent and old offenses are quickly reignited.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/bsh5XrZvhOgYALW0j5GtMkttBZp.jpg"
+      },
+      {
+        "name": "3. Esqueleto",
+        "description": "Johnny tries to recruit more students to join the dojo. Troubled by his daughter’s friends, Daniel chaperones her high school costume dance. Johnny takes Miguel’s training seriously and starts creating a badass.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/uY5D365Z69xLOJXjWFIV5RD82Ds.jpg"
+      },
+      {
+        "name": "4. Cobra Kai Never Dies",
+        "description": "When Daniel’s car dealership billboard is sprayed with lewd graffiti, it consumes Daniel and escalates tensions against a rival. Robby, Johnny’s delinquent son, is embarrassed about his father and his new dojo. The bullying escalates against Miguel and motivates Johnny in a surprising way.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/h2GZrZqIeRO0ca2eiFn7hnPTLFc.jpg"
+      },
+      {
+        "name": "5. Counterbalance",
+        "description": "Daniel tries to strike a shady deal to undermine Johnny’s dojo. Meanwhile, Johnny expands his enrollment ranks in the dojo. Miguel puts his karate practice into reality as Samantha faces rejection in school.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/8IztwvDGQpWwixBnBkYn3NJljOl.jpg"
+      },
+      {
+        "name": "6. Quiver",
+        "description": "Johnny’s dojo class attracts a group of misfits while his son Robby, who harbors ulterior motives, lands a new job. Samantha makes a new friend in science class. Daniel inspires interest in karate from an unlikely person.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/qmqIbjkqNgYfLRj7W7nupEx064y.jpg"
+      },
+      {
+        "name": "7. All Valley",
+        "description": "Daniel takes on teaching his new pupil using the unconventional techniques from Mr. Miyagi. Robby is tempted to return to his delinquent ways. Johnny helps Miguel with his first date.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/vD1GxYOwqDNKIjWdXSWxiMXRveB.jpg"
+      },
+      {
+        "name": "8. Molting",
+        "description":"Johnny prepares his Cobra Kai students for the next All Valley Karate Tournament and in turn, he is inspired to clean up his life. Daniel is still unaware of his new pupil’s background. But as events unfold, it seems nothing has changed between Daniel and Johnny in 30 years.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/wUWZwc9gYGycrxe51lk3Ky9a8Wi.jpg"
+      },
+      {
+        "name": "9. Different But Same",
+        "description": "Despite Johnny’s efforts to move forward, he confronts Daniel about the assault on his property. An attempt to appease Johnny makes them revisit the past together. Miguel senses Samantha is lying to him. The dojo students try to intimidate the popular kids at a party.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/f96BWZTPFXO9WdFujOVDHykk37Q.jpg"
+      },
+      {
+        "name": "10. Mercy",
+        "description": "The highly-anticipated All Valley Karate Tournament brings Johnny and Daniel on opposite sides again, except this time, the new generation of karate students are the combatants. Who will pay the price for ultimate victory?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/skeOPsG179Ku3AUAKvfLKGZGEOd.jpg"
+      }
+    ]
   },
   {
-    "name": "La orden Secreta",
+    "name": "Game of Thrones",
     "type": "series",
-    "thumbnail": "https://i.postimg.cc/C5g9J09d/la-orden-secretra.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
+    "plot": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+    "seasons": 2,
+    "similarity": 98,
+    "year": 2011,
+    "chapters": [
+      {
+        "name": "1. Winter is coming",
+        "description": "Jon Arryn, the Hand of the King, is dead. King Robert Baratheon plans to ask his oldest friend, Eddard Stark, to take Jon's place. Across the sea, Viserys Targaryen plans to wed his sister to a nomadic warlord in exchange for an army.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/wrGWeW4WKxnaeA8sxJb2T9O6ryo.jpg"
+      },
+      {
+        "name": "2. The Kingsroad",
+        "description": "While Bran recovers from his fall, Ned takes only his daughters to Kings Landing. Jon Snow goes with his uncle Benjen to The Wall. Tyrion joins them.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/icjOgl5F9DhysOEo6Six2Qfwcu2.jpg"
+      },
+      {
+        "name": "3. Lord Snow",
+        "description": "Lord Stark and his daughters arrive at King's Landing to discover the intrigues of the king's realm.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/4vCYVtIhiYSUry1lviA7CKPUB5Z.jpg"
+      },
+      {
+        "name": "4. Cripples, Bastards, and Broken Things",
+        "description": "Eddard investigates Jon Arryn's murder. Jon befriends Samwell Tarly, a coward who has come to join the Night's Watch.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/Ai2UPMWv38xGjOgNBuA1o8w8dUI.jpg"
+      },
+      {
+        "name": "5. The Wolf and the Lion",
+        "description": "Catelyn has captured Tyrion and plans to bring him to her sister, Lysa Arryn, at The Vale, to be tried for his, supposed, crimes against Bran. Robert plans to have Daenerys killed, but Eddard refuses to be a part of it and quits.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/5fDE2RqYXySfvYNdOOhOsdFl8ZA.jpg"
+      },
+      {
+        "name": "6. A Golden Crown",
+        "description": "While recovering from his battle with Jamie, Eddard is forced to run the kingdom while Robert goes hunting. Tyrion demands a trial by combat for his freedom. Viserys is losing his patience with Drogo.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/6FcfWGFlDyWZ2JvQi8uvkxbDx1z.jpg"
+      },
+      {
+        "name": "7. You Win or You Die",
+        "description": "Robert has been injured while hunting and is dying. Jon and the others finally take their vows to the Night's Watch. A man, sent by Robert, is captured for trying to poison Daenerys. Furious, Drogo vows to attack the Seven Kingdoms.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/5ZNrAvoNAG9scYHgxLVyozypOmV.jpg"
+      },
+      {
+        "name": "8. The Pointy End",
+        "description":"Eddard and his men are betrayed and captured by the Lannisters. When word reaches Robb, he plans to go to war to rescue them. The White Walkers attack The Wall. Tyrion returns to his father with some new friends.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/9ZvT1IZPcC11eiCByOzqQvC3CCR.jpg"
+      },
+      {
+        "name": "9. Baelor",
+        "description": "Robb goes to war against the Lannisters. Jon finds himself struggling on deciding if his place is with Robb or the Night's Watch. Drogo has fallen ill from a fresh battle wound. Daenerys is desperate to save him.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/3pcFXQOKHnZhRkGCQ7Y8HRB1v8V.jpg"
+      },
+      {
+        "name": "10. Fire and Blood",
+        "description": "With Ned dead, Robb vows to get revenge on the Lannisters. Jon must officially decide if his place is with Robb or the Night's Watch. Daenerys says her final goodbye to Drogo.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/7GhSiFhXOg81AevNQWrX6DOEL1U.jpg"
+      }
+    ]
   },
   {
-    "name": "The End of the Fucking World",
+    "name": "La casa de Papel",
     "type": "series",
-    "thumbnail": "https://i.postimg.cc/t4MfwW8K/the-end-of-the-f.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/tNlkKrypFs6QSUjFVQntFISoFv5.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
+    "plot": "Un enigmático personaje llamado el Profesor planea algo grande: llevar a cabo el mayor atraco de la historia. Para ello recluta una banda de ocho personas que reúnen un único requisito, ninguno tiene nada que perder. Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad… y por fin, once días de encierro en la Fábrica Nacional de Moneda, rodeados de cuerpos de policía y con decenas de rehenes en su poder para saber si su apuesta suicida será todo o nada.",
+    "seasons": 2,
+    "similarity": 90,
+    "year": 2017,
+    "chapters": [
+      {
+        "name": "1. Capítulo 1",
+        "description": "Tokio, una joven experta en asaltos, se esconde de la policía en una auto caravana. De allí la rescata El Profesor, un enigmático personaje que le propone el golpe de su vida, '¿Cómo te suenan 2.400 millones de euros?'. Ella se unirá al grupo reclutado por El Profesor - cinco meses concentrados en una finca de Toledo. El Profesor les explica al milímetro todos y cada uno de los pasos a dar una vez comience el asalto a La Fábrica Nacional de Moneda y Timbre.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/mxdCIxCA6DydRcRUpEXLwZHDWXZ.jpg"
+      },
+      {
+        "name": "2. Capítulo 2",
+        "description": "Cuando el plan estaba saliendo sobre ruedas, uno de los atracadores comete un error grande. Un descuido provoca que la policía vea su cara. Los rehenes, por orden de Berlín, empiezan a cavar un túnel y descubren explosivos suficientes como para derrumbar el edificio. Arturo Román, el jefe de la Fábrica de la Moneda, comprende que van a morir, que nunca saldrán de allí habiéndole visto la cara a los secuestradores.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/e5sVue90Xd7kbTLrfbArexjpPEz.jpg"
+      },
+      {
+        "name": "3. Capítulo 3",
+        "description": "Berlín ordena a Denver que ejecute a Mónica al pillarla con un móvil. La secretaria de la Fábrica ruega a Denver por su vida. Moscú enfurece con la orden que ha recibido su hijo, que pone en peligro su vida. La inspectora Raquel Murillo sigue empeñada en que los atracadores se rindan y El Profesor le impone sus condiciones, quiere unos camiones y un barco con los que huir. ¿Cederá Raquel?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/8CUeEvXECN6upEplYvLRwkns8dH.jpg"
+      },
+      {
+        "name": "4. Capítulo 4",
+        "description": "Arturo tiene un disparo cerca del hombro y necesita asistencia médica, pero los atracadores se niegan a que abandone la Fábrica de Moneda y Timbre. Tendrá que entrar un equipo médico para hacer la cura. Ángel, subinspector, se ofrece para entrar en la Fábrica de Moneda y Timbre con el equipo médico que va a curar a Arturo, infiltrándose como enfermero. Mientras, en la carpa de la policía todo está preparado para que un equipo de élite se cuele en el edificio. ¿Conseguirán hacerse pasar por atracadores y pillarles por sorpresa?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/h1Jt1XUkSdUGf2NM4PK1yN463tN.jpg"
+      },
+      {
+        "name": "5. Capítulo 5",
+        "description": "Cuando parecía que todo estaba en punto muerto, la policía localiza el coche con el que Tokio y Río viajaban para visitar el museo cuando preparaban el golpe. En el interior de la Fábrica de Moneda cunde la incertidumbre, rehenes y atracadores empiezan a notar las más de 30 horas de encierro. Río, el más joven de los atracadores, se desmorona cuando ve en la televisión a sus padres.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/1rwNOcDJDckVUiBN4LlCy5Ou4kO.jpg"
+      },
+      {
+        "name": "6. A Capítulo 6",
+        "description": "La filtración de las negociaciones con los atracadores de la Fábrica de la Moneda pone en el punto de mira de la prensa a Raquel. Se cuestiona todo, desde su imagen a su vida familiar, pasando por su idoneidad para estar al frente de este caso. ¿Descubrirá Raquel por fin quién es el topo, el que informa a los atracadores de todos sus pasos, ese que hace que la policía siempre vaya por detrás? En el interior de la Fábrica de Moneda, Berlín habla con los rehenes para comunicarles dos noticias: Arturo Román, el director de la Fábrica de Moneda, se recupera del disparo y Mónica Gaztambide ha sido ejecutada por desobedecer sus órdenes.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/rGfZXEba8shIyNViwSuPbGwHenw.jpg"
+      },
+      {
+        "name": "7. Capítulo 7",
+        "description": "La policía ya tiene la identidad de tres de los atracadores: Río, Tokio y Berlín. El Profesor decide que es hora de activar un plan para hacer perder tiempo a los investigadores y poder seguir con su atraco adelante. El plan consiste en hacer que la inspectora Raquel entre en la Fábrica de Moneda y Timbre, pero esa visita controlada se le va de las manos. La inspectora la aprovechará para contactar en secreto con uno de los atracadores, con el eslabón más débil. ¿Conseguirá que acepte un trato y acabará entregándole a toda la banda?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/fenc9yftHvi27iNjGL9xbzlAIUI.jpg"
+      },
+      {
+        "name": "8. Capítulo 8",
+        "description":"A pesar de los contratiempos y de llevar más de 60 horas encerrados, el ánimo de los atracadores no decae. La impresión de billetes no puede ir mejor, superando las cifras que se habían marcado y la construcción del túnel inicia una nueva fase que facilitará la perforación. Ni policías ni atracadores saben que entre los rehenes se está planeando una fuga. El cerebro es Arturo, el director de la FNMT. ¿Conseguirá convencer a sus compañeros de secuestro para que pierdan el miedo e intenten escaparse?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/8uObHfxb3mTrXTOv8qLvdbu0nDn.jpg"
+      },
+      {
+        "name": "9. Capítulo 9",
+        "description": "Un grupo de rehenes logra su objetivo: se han fugado y han abierto una brecha de seguridad en el edificio. Berlín y el resto de atracadores tienen que cambiar de estrategia frente al resto de rehenes para evitar un nuevo intento de fuga. Les van a proponer dos opciones… ¿Cómo caerá la oferta entre los secuestrados, seguirán siendo una piña o la unión del grupo se debilitará?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/1R8Vr3oEbqkVp4EEfRX1skaxQ06.jpg"
+      },
+      {
+        "name": "10. Capítulo 10",
+        "description": "La situación de El Profesor se complica a cada paso que da. La policía ha descubierto la casa de campo donde, durante cinco meses, planearon el golpe. La policía científica tiene trabajo para unos días entre huellas y restos de ADN, y especialmente Alberto, el ex marido de Raquel. En el interior de la Fábrica de Moneda los atracadores están nerviosos. El Profesor lleva muchas horas sin contactar con ellos y empiezan a pensar que se han quedado solos.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/1ePgd8OUgBIsuQ03OGz76zwRe9d.jpg"
+      },
+      {
+        "name": "11. Capítulo 11",
+        "description": "Todo lo que parecía planeado al milímetro empieza a desbaratarse. Berlín ha entregado a Tokio que va a ser interrogada exhaustivamente por la policía. Mientras tanto el Profesor está en la comisaría, detenido por haber golpeado al ex marido de Raquel. Está acusado de agredir a un policía, encerrado en comisaría mientras, en el interior de la Fábrica Nacional de Moneda y Timbre se produce una rebelión entre los atracadores.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/iA95Wzc5qZdwVLspsmzuJCCxaE9.jpg"
+      },
+      {
+        "name": "12. Capítulo 12",
+        "description": "Es el momento de reconocer que han perdido, que el plan no está saliendo cómo lo calcularon y hay que empezar a ganarse el favor de la opinión pública. La mejor manera es liberando a algunos rehenes y dejando que la prensa entre en la Fábrica para que todos vean que los atracadores ya son unos perdedores. Raquel está convencida de que el cabecilla de la banda, el cerebro del atraco, está fuera y monta un amplio dispositivo policial para tenderle una trampa. ¿Caerá El Profesor?",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/AbABGEWs2IkvStrqyeBxbwmMlUV.jpg"
+      },
+      {
+        "name": "13. Capítulo 13",
+        "description": "Raquel descubre que Salva en realidad es el hombre que busca, se ha enamorado hasta las trancas del cabecilla de los atracadores cuyo plan tiene que desactivar. Mientras, en el interior de la Fábrica parece que todo se desmorona. Aumentan las fricciones entre los miembros del grupo y la desconfianza entre los rehenes. Ya nadie sabe en quien creer. Arturo será castigado duramente por haber intentado, una vez más, poner en marcha un plan de fuga. Lejos de solidarizarse con él, los rehenes le dan la espalda. Y no es el único que se queda solo, Moscú pierde la confianza de Denver tras hacerle una terrible confesión.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/YlXlJz4eNqmLSY760ZplgI4IdH.jpg"
+      },
+      {
+        "name": "14. Capítulo 14",
+        "description": "Crecen los problemas para los atracadores. No son capaces de contactar con El Profesor y Moscú ha sido alcanzado en el abdomen durante el tiroteo de regreso de Tokio. La situación es muy grave también para la policía: Prieto y Suárez han descubierto que el cabecilla de la banda es el novio de la inspectora Murillo. Raquel e apartada del caso, pero eso no significa que vaya a echarse a un lado. Al contrario, su empeño por encontrar a El Profesor no hace más que crecer. En paralelo a la operación policial que desarrollan sus antiguos compañeros, estrechará el cerco en torno al cabecilla de la banda.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/hd1VLHOV1LkejSloueMQDIer6be.jpg"
+      },
+      {
+        "name": "15. Capítulo 15",
+        "description": "Han pasado ya cinco días desde que la banda de atracadores entrara en las instalaciones de la Fábrica de Moneda para llevar a cabo el mayor atraco de la historia. 125 horas de encierro con la policía rodeando el edificio, con decenas de rehenes que se han amotinado, que han intentado escapar y que, en algún momento, han conseguido una fuga parcial. El desánimo y el agotamiento comienza a hacer mella. El atraco está llegando a su final. No hay vuelta atrás. O todo, o nada.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/rrYS8n8hcEPTMmXIA0SpBW7AKei.jpg"
+      }
+
+    ]
   },
   {
-    "name": "The End of the Fucking World",
+    "name": "The Big Lebowski",
     "type": "keepWatching",
-    "thumbnail": "https://i.postimg.cc/t4MfwW8K/the-end-of-the-f.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/nevS6wjzCxZESvmjJZqdyZ3RNQ6.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/5Hs64K7XXjvrmBXGjjN1MuWh8Xd.jpg",
+    "plot": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+    "duration": "1h 57m",
+    "similarity": 99,
+    "year": 1998,
+    "progress": 65
   },
   {
-    "name": "The Walking Dead",
+    "name": "American Beauty",
     "type": "keepWatching",
-    "thumbnail": "https://image.tmdb.org/t/p/original/xVzvD5BPAU4HpleFSo8QOdHkndo.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/kEA3iOrV1DpHQ3Z01Q28y2Qoc89.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/DztBnZaqmla2sGUW9s8AyOmskT.jpg",
+    "plot": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+    "duration": "2h 2m",
+    "similarity": 89,
+    "year": 1999,
+    "progress": 35
   },
   {
-    "name": "Dark",
+    "name": "Full Metal Jacket",
     "type": "keepWatching",
-    "thumbnail": "https://i.postimg.cc/wj48zSRb/dark.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/jqfCHNmjJVo5nJnLPM3ww7yqfNm.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/yozBWKbyeXtPGN75PlHurOaVvEz.jpg",
+    "plot": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+    "duration": "1h 56m",
+    "similarity": 89,
+    "year": 1999,
+    "progress": 43
   },
   {
     "name": "Mindhunter",
@@ -70,13 +537,13 @@
     "name": "Westworld",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
-    "progress": ""
+    "progress": 78
   },
   {
     "name": "Breaking Bad",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/scGGbGjVbNyqKbJ6QnlPPY5je0v.jpg",
-    "progress": ""
+    "progress": 8
   },
   {
     "name": "The Sopranos",
@@ -84,46 +551,133 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/jQaEgaZlY0zxsaFAyrJB4wfwHo8.jpg",
     "progress": ""
   },
+  
   {
-    "name": "The Office",
-    "type": "lastAdded",
-    "thumbnail": "https://image.tmdb.org/t/p/original/1UoKSv2f1OCiZt8XEWywz27nqSr.jpg",
-    "progress": ""
-  },
-  {
-    "name": "Game of Thrones",
-    "type": "lastAdded",
-    "thumbnail": "https://image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
-    "progress": ""
+    "name": "Shaun of the Dead",
+    "type": "keepWatching",
+    "thumbnail": "https://image.tmdb.org/t/p/original/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/dCShRbkis2ftkW9cUhQ117ew2JW.jpg",
+    "plot": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
+    "duration": "1h 39m",
+    "similarity": 99,
+    "year": 2004,
+    "progress": 35
   },
   {
     "name": "Pulp Fiction",
     "type": "lastAdded",
     "thumbnail": "https://i.postimg.cc/Dwfmhr3H/pulp-fiction.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "plot": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "duration": "2h 34m",
+    "similarity": 99,
+    "year": 1994
   },
   {
     "name": "Six Feet Under",
     "type": "lastAdded",
-    "thumbnail": "https://image.tmdb.org/t/p/original/vhqYfbGYH8tVMWpq74Pj0Y1W6dM.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/7vb98AvODPzyDgxw1k46URgqdrN.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
+    "plot": "A darkly comic look at members of a dysfunctional L.A. family that run a funeral business. When death is your business, what is your life? For the Fisher family, the world outside of their family-owned funeral home continues to be at least as challenging as--and far less predictable than--the one inside.",
+    "seasons": 5,
+    "similarity": 98,
+    "year": 2001,
+    "chapters": [
+      {
+        "name": "1. Pilot",
+        "description": "After the patriarch of the family, dies in a hearse-accident, the family comes together to mourn and decide the fate of the family Funeral Home. Nate, who works for an organic grocery store in Seattle, has to deal with more than just the death of his father. His mother, Ruth, is taking the death especially hard because she had been having an affair with her hairdresser, Hiram. David, the closeted homosexual who has helped with the business, has a difficult transition running things. Claire, the youngest of the clan, is a teenager in high-school trying to get comfortable in her own skin. On top of everything the family is already going through, they have a corporate funeral company hounding them to sell out.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/cSLWrRhHOksHBugGWfYMLlfBgTW.jpg"
+      },
+      {
+        "name": "2. The Will",
+        "description": "During a get together around a pool, people discuss a franchise pyramid scheme. Chandler Swanson dives into the pool, but he doesn't come back up. He leaves a wife and an infant daughter. Nathaniel Fisher's will is read and Ruth gets money, stocks and insurance money. Nate & David are both given the funeral business. Claire receives college tuition, but she considers trading it in for cash. In an effort to help the Widow Swanson, Nate starts learning a few things about the funeral business. First up, caskets cannot be rented. By law, a used casket cannot be re-sold.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/9qe6tSVJUFhwgqsGShlEf55iPVk.jpg"
+      },
+      {
+        "name": "3. The Foot",
+        "description": "The Fishers have decided to sell, but then back out at the last minute because Nate cannot stand Gilardi. Claire finds a rather interesting way to get back at Gabe for spreading rumors about her. Gilardi find his own way of payback. He tells the Fishers that he is buying the rundown house across the street from them in order to provide a cheap alternative to Fisher & Sons. However, mysteriously, the house catches on fire after Nate and Brenda fool around in it.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/h9vkotvTCpXlknDal3cR9AzgAqy.jpg"
+      },
+      {
+        "name": "4. Familia",
+        "description": "The Fisher family wonder if Claire might have some part to play in the blaze across the street. Nate has Brenda over for dinner and it does not seem to go as well as expected. Nate is dealing with issues from every side, including a feud between a deceased's family and gang about how to handle his services. But Nate finally gets enough courage to stand up to Gilardi and handle issues with Keith and the clients.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/cJNhcl46ypJ5cvk05PLHQwSHcaL.jpg"
+      },
+      {
+        "name": "5. An Open Book",
+        "description": "Ruth is stunned by the visitors at a porn star's wake. Nate has a strange first meeting with Brenda's brother Billy. Keith takes issue with David's desire to replace his father as deacon at the family church.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/1DkH4Dh3ob6bB0xDn21EAUzlhaA.jpg"
+      },
+      {
+        "name": "6. The Room",
+        "description": "Nate continues to learn disturbing things about his father. This time he finds out that sometimes his father would barter for funerals. In one case, he traded a room. While David is pursuing a closer relationship with his church, a divorcee tries to pursue a closer relation with him. Claire meets Brenda's brother Billy and they hit it off extremely well. Ruth is still with Hiram, but is now also being pursued by her husband's florist, Nikolai.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/cnxDnctqCbjzEUdiefH89FWigaM.jpg"
+      },
+      {
+        "name": "7.Brotherhood",
+        "description": "Billy tries to get in the way of Nate and Brenda's relationship. Ruth invites Hiram over for a family dinner, and also takes a florist job in Nikolai's shop. David meets an open-minded associate priest and votes to keep him on for the church. Claire continues to have problems with school and life in general.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/wrwQ3VP9BnjLWhuAdxkGC16b0yY.jpg"
+      },
+      {
+        "name": "8. Crossroads",
+        "description":"Riding in a limo, a drunken Chloe is celebrating her new-found freedom with friends. she stands up with her head out the sunroof to scream it to the world... and loses her head, literally. The business is a bit slow these days, so Nate and David decide to rent out a room at the funeral home to supplement the loss. Frederico is being wooed by Kroehner's and he contemplates doing it for the experience and the money. Claire is hiking in the mountains but doesn't really understand the point of it all.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/a2P8RGzfkjPBkClqmWjSPyIwngO.jpg"
+      },
+      {
+        "name": "9. Life's Too Short",
+        "description": "Claire runs into Gabe again, but not under the best circumstances. His brother died and his mother and he have come to Fisher & Sons for the services. Brenda and Nate visit several different local funeral homes posing as mourning relatives in order to help Nate improve upon his salesmanship.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/pYxBEFWPndtrHGAQ5cLD6ieYvKk.jpg"
+      },
+      {
+        "name": "10. The New Person",
+        "description": "Nate and David hire a replacement for Rico -- Angela. She's very good at what she does, but they have a hard time getting used to her willingness to speak her mind. Billy has a rather surprising gallery exhibit of some of his work.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/tUrYd5c2BfGpWJ5kaO0eaTTzP5m.jpg"
+      },
+      {
+        "name": "11. The Trip",
+        "description": "Nate, David, and Brenda go to Las Vegas for a funeral director's convention. David continues to 'date' rather random men, and trying desperately to hide it from his mother and family. Ruth gets bold and actually attempts to ask David about whether or not he is g.... but David rudely interrupts her and says they can talk about it later. Claire is struggling with feelings for Gabe, whether they are guilt or adoration is a bit fuzzy. Ruth signs up for flower arranging classes to improve her skills, only to discover she's conceived as a bit controlling and tight.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/pr4Erlq8mNXvu6amCAd0fambCrZ.jpg"
+      },
+      {
+        "name": "12. A Private Life",
+        "description": "Rico and Vanessa finally have their new son. Brenda tries to handle her brother's obsessiveness and suggests he give her back her house key and start back on his medication. Billy does not react too well to this. David's feelings about his secret come closer to the surface due to a hate crime against a gay man, that the funeral home now must deal with. Ruth tries to get her son to bring up the subject, but has a very difficult time. Nate has a freakish encounter with Billy. Claire and Gabe continue their unusual relationship.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/7uZ8FaQ74ChJjL9olLbvxmUMx5C.jpg"
+      },
+      {
+        "name": "13. Knock, Knock",
+        "description": "Tracy Montrose Blair is back but for very different reasons this time. Her Aunt Lillian has passed away and David is the only one that can help her. While David is trying to deal with Tracy's outrageous demands and cope with her ever-changing ideas, Nate is trying to deal with Brenda and her family. Interrupted from his funeral director's exam, Nate scurries over to Brenda's so he can take her to visit Billy. Ruth finally decides she doesn't want to be involved with Nikolai and gets fired because of it.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/nqIebLUPXos0vYv6eKe0vCl74b8.jpg"
+      }
+    ]
   },
   {
     "name": "Trainspotting",
     "type": "lastAdded",
-    "thumbnail": "https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/e9GbzPawXDFvLwSseCXpHkbCyAP.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
+    "plot": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends -- Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind when Begbie shows up at his front door on the lam, and a scheming Sick Boy follows.",
+    "duration": "1h 34m",
+    "similarity": 99,
+    "year": 1996
   },
   {
     "name": "Alien",
     "type": "lastAdded",
     "thumbnail": "https://image.tmdb.org/t/p/original/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
-    "progress": ""
+    "hero":"https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+    "plot": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+    "duration": "1h 57m",
+    "similarity": 99,
+    "year": 1979
   },
   {
     "name": "Se7en",
     "type": "lastAdded",
-    "thumbnail": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
+    "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    "duration": "2h 7m",
+    "similarity": 99,
+    "year": 1995
   }
 ]
