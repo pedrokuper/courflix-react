@@ -12,7 +12,7 @@ class InnerCarousel extends React.Component {
       speed: 500,
       slidesToShow: 5,
       slidesToScroll: 1,
-      draggable: true,
+      draggable: false,
       swipeToSlide: true,
       centerMode: false,
       className: "slides",
@@ -21,7 +21,7 @@ class InnerCarousel extends React.Component {
     };
 
     const { content } = this.props;
-
+    console.log(content)
     return (
       <div className="carousel-container">
         <Slider {...settings}>

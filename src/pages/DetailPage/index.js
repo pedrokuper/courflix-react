@@ -25,22 +25,27 @@ class DetailPage extends React.Component {
 
   render() {
     const { desc, img, title } = this.state;
+    const heroImg = {
+      backgroundImage: `url(${img})`,
+      backgroundSize: "cover",
+      height: "100vh"
+    };
 
     return (
       <>
         {/* <Navbar /> */}
         <section className="content-detail">
-          <div className="hero">
-            <h1>{title}</h1>
+          <div style={heroImg} className="hero">
+            <h1 className="title">{title}</h1>
           </div>
           <div className="content-info">
             <p>95% de coincidencia</p>
             <p>2016</p>
             <p>+16</p>
             <p>5 temporadas</p>
+            <Button title="Reproducir" />
+            <Button title="Mi Lista" />
           </div>
-          <Button title="Reproducir" />
-          <Button title="Mi Lista" />
         </section>
       </>
     );
