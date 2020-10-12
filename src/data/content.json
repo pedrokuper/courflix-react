@@ -3,7 +3,7 @@
     "name": "Iron Fist",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/5tDhYL3B/iron-fist.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/dNzBtV7f0Q3EeX2qrDZDh28gxjA.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/dNzBtV7f0Q3EeX2qrDZDh28gxjA.jpg",
     "plot": "Fifteen years after being presumed dead in a plane crash, Danny Rand mysteriously returns to New York City determined to reclaim his birthright and family company. However, when a long-destined enemy rises in New York, this living weapon is forced to choose between his family’s legacy and his duties as the Iron Fist.",
     "seasons": 2,
     "similarity": 95,
@@ -74,14 +74,13 @@
         "description": "In a desperate search to clear his name, Danny learns a terrible truth that places him on a new path.",
         "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/3lo5nzjrzCSnQXcQD7YMJkUWO31.jpg"
       }
-
     ]
   },
   {
     "name": "Rick and Morty",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/LXdW6R9v/rick-and-morty.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/1HcUlfwNdpLzmKa6ZCYJCjXa8lB.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/1HcUlfwNdpLzmKa6ZCYJCjXa8lB.jpg",
     "plot": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
     "seasons": 4,
     "similarity": 99,
@@ -124,7 +123,7 @@
       },
       {
         "name": "8. Rixty Minutes",
-        "description":"Rick hacks the cable box, but the family are distracted by another one of his inventions.",
+        "description": "Rick hacks the cable box, but the family are distracted by another one of his inventions.",
         "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/HaTpHoQw2DWFAtHgGKn4gLOEaX.jpg"
       },
       {
@@ -142,13 +141,13 @@
         "description": "Beth and Jerry go away on a trip, so Rick decides to throw a party.",
         "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/mLJbMSLaB8CZmr07GJGH9TiG4PL.jpg"
       }
-    ]    
+    ]
   },
   {
     "name": "The Haunting of Hill House",
     "type": "series",
     "thumbnail": "https://image.tmdb.org/t/p/original/ivOuQhw5OiWiF0wX4nAovoT8xB5.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/dQF17lG4OZ3pC4QD9iNjaMS96gO.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/dQF17lG4OZ3pC4QD9iNjaMS96gO.jpg",
     "plot": "The Crains, a fractured family, confront haunting memories of their old home and the terrifying events that drove them from it.",
     "seasons": 2,
     "similarity": 98,
@@ -191,13 +190,14 @@
       },
       {
         "name": "8. Witness Marks",
-        "description":"A familiar terror revisits Shirley and Theo on Halloween night as Hugh and Steve go looking for Luke, who disappeared on a deadly errand.",
+        "description": "A familiar terror revisits Shirley and Theo on Halloween night as Hugh and Steve go looking for Luke, who disappeared on a deadly errand.",
         "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/3ypMZYsPpdLZEK9K5famZSycqUZ.jpg"
       },
       {
         "name": "9. Screaming Meemies",
         "description": "While struggling to discern dreams from reality, Olivia fears for her children's safety, a motherly instinct Mrs. Dudley urges her to embrace.",
-        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/daA9q3U3ibIcm5OGuklySeIsQWV.jpg"},
+        "thumbnail": "https://image.tmdb.org/t/p/w454_and_h254_bestv2/daA9q3U3ibIcm5OGuklySeIsQWV.jpg"
+      },
       {
         "name": "10. Silence Lay Steadily",
         "description": "The Red Room's contents are finally revealed as the Cranes return to the house to confront old ghosts, unspeakable secrets and an insatiable evil.",
@@ -209,7 +209,7 @@
     "name": "Lucifer",
     "type": "keepWatching",
     "thumbnail": "https://i.postimg.cc/8cm903V4/lucifer.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/cA0PlTcuvKZpRwQQZqCPQ6Cwj1w.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/cA0PlTcuvKZpRwQQZqCPQ6Cwj1w.jpg",
     "plot": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
     "seasons": 5,
     "similarity": 85,
@@ -252,13 +252,14 @@
       },
       {
         "name": "8. Et Tu, Doctor?",
-        "description":"When a therapist is murdered, Lucifer and Chloe enlist the help of Dr. Linda to look into possible suspects. Meanwhile, Malcolm confronts Chloe about the night he was shot, and Lucifer experiences his first bout of jealousy.",
+        "description": "When a therapist is murdered, Lucifer and Chloe enlist the help of Dr. Linda to look into possible suspects. Meanwhile, Malcolm confronts Chloe about the night he was shot, and Lucifer experiences his first bout of jealousy.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/kCvPxVQ0OLyQG7VwPOzHTHGsbKV.jpg"
       },
       {
         "name": "9. A Priest Walks Into A Bar",
         "description": "A priest seeks out Lucifer's help when he suspects an underground drug operation has set up shop at a neighborhood youth center. Meanwhile, Malcolm manipulates a way to keep an eye on Dan..",
-        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/guWoA5SLNMVMo6J3vaZSMIEGyXh.jpg"},
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/guWoA5SLNMVMo6J3vaZSMIEGyXh.jpg"
+      },
       {
         "name": "10. Pops",
         "description": "Lucifer and Chloe are tasked with solving the murder of a prominent restaurateur. When they meet his son, they suspect he played a part in the death. Meanwhile, Chloe's mom returns home, sending Chloe's life into upheaval, as Lucifer learns his own dysfunctional family isn't nearly as unique as he thought.",
@@ -286,7 +287,7 @@
     "name": "Cobra Kai",
     "type": "series",
     "thumbnail": "https://i.postimg.cc/9Xd604q9/preview-3.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
     "plot": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
     "seasons": 2,
     "similarity": 98,
@@ -329,7 +330,7 @@
       },
       {
         "name": "8. Molting",
-        "description":"Johnny prepares his Cobra Kai students for the next All Valley Karate Tournament and in turn, he is inspired to clean up his life. Daniel is still unaware of his new pupil’s background. But as events unfold, it seems nothing has changed between Daniel and Johnny in 30 years.",
+        "description": "Johnny prepares his Cobra Kai students for the next All Valley Karate Tournament and in turn, he is inspired to clean up his life. Daniel is still unaware of his new pupil’s background. But as events unfold, it seems nothing has changed between Daniel and Johnny in 30 years.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/wUWZwc9gYGycrxe51lk3Ky9a8Wi.jpg"
       },
       {
@@ -348,7 +349,7 @@
     "name": "Game of Thrones",
     "type": "series",
     "thumbnail": "https://image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
     "plot": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
     "seasons": 2,
     "similarity": 98,
@@ -391,7 +392,7 @@
       },
       {
         "name": "8. The Pointy End",
-        "description":"Eddard and his men are betrayed and captured by the Lannisters. When word reaches Robb, he plans to go to war to rescue them. The White Walkers attack The Wall. Tyrion returns to his father with some new friends.",
+        "description": "Eddard and his men are betrayed and captured by the Lannisters. When word reaches Robb, he plans to go to war to rescue them. The White Walkers attack The Wall. Tyrion returns to his father with some new friends.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/9ZvT1IZPcC11eiCByOzqQvC3CCR.jpg"
       },
       {
@@ -410,7 +411,7 @@
     "name": "La casa de Papel",
     "type": "series",
     "thumbnail": "https://image.tmdb.org/t/p/original/tNlkKrypFs6QSUjFVQntFISoFv5.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/xM8zPWNqwbgCZQNgOOH2YeM7Cu.jpg",
     "plot": "Un enigmático personaje llamado el Profesor planea algo grande: llevar a cabo el mayor atraco de la historia. Para ello recluta una banda de ocho personas que reúnen un único requisito, ninguno tiene nada que perder. Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad… y por fin, once días de encierro en la Fábrica Nacional de Moneda, rodeados de cuerpos de policía y con decenas de rehenes en su poder para saber si su apuesta suicida será todo o nada.",
     "seasons": 2,
     "similarity": 90,
@@ -453,7 +454,7 @@
       },
       {
         "name": "8. Capítulo 8",
-        "description":"A pesar de los contratiempos y de llevar más de 60 horas encerrados, el ánimo de los atracadores no decae. La impresión de billetes no puede ir mejor, superando las cifras que se habían marcado y la construcción del túnel inicia una nueva fase que facilitará la perforación. Ni policías ni atracadores saben que entre los rehenes se está planeando una fuga. El cerebro es Arturo, el director de la FNMT. ¿Conseguirá convencer a sus compañeros de secuestro para que pierdan el miedo e intenten escaparse?",
+        "description": "A pesar de los contratiempos y de llevar más de 60 horas encerrados, el ánimo de los atracadores no decae. La impresión de billetes no puede ir mejor, superando las cifras que se habían marcado y la construcción del túnel inicia una nueva fase que facilitará la perforación. Ni policías ni atracadores saben que entre los rehenes se está planeando una fuga. El cerebro es Arturo, el director de la FNMT. ¿Conseguirá convencer a sus compañeros de secuestro para que pierdan el miedo e intenten escaparse?",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/8uObHfxb3mTrXTOv8qLvdbu0nDn.jpg"
       },
       {
@@ -491,7 +492,6 @@
         "description": "Han pasado ya cinco días desde que la banda de atracadores entrara en las instalaciones de la Fábrica de Moneda para llevar a cabo el mayor atraco de la historia. 125 horas de encierro con la policía rodeando el edificio, con decenas de rehenes que se han amotinado, que han intentado escapar y que, en algún momento, han conseguido una fuga parcial. El desánimo y el agotamiento comienza a hacer mella. El atraco está llegando a su final. No hay vuelta atrás. O todo, o nada.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/rrYS8n8hcEPTMmXIA0SpBW7AKei.jpg"
       }
-
     ]
   },
   {
@@ -553,7 +553,7 @@
     "name": "Breaking Bad",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/scGGbGjVbNyqKbJ6QnlPPY5je0v.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
     "plot": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
     "seasons": 5,
     "similarity": 98,
@@ -601,7 +601,7 @@
     "name": "American Horror Story",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/cAQDLQVFNg6CRDfvIzrCXAUMWnT.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
     "plot": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke and a cult.",
     "seasons": 9,
     "similarity": 98,
@@ -644,7 +644,7 @@
       },
       {
         "name": "8.Rubber Man",
-        "description":"The man in the rubber suit is revealed.",
+        "description": "The man in the rubber suit is revealed.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/zrmWli2rdj9mrWeVHRoWZbn513c.jpg"
       },
       {
@@ -670,12 +670,11 @@
     ],
     "progress": 33
   },
-  
   {
     "name": "Shaun of the Dead",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/dCShRbkis2ftkW9cUhQ117ew2JW.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/dCShRbkis2ftkW9cUhQ117ew2JW.jpg",
     "plot": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
     "duration": "1h 39m",
     "similarity": 99,
@@ -686,7 +685,7 @@
     "name": "Pulp Fiction",
     "type": "lastAdded",
     "thumbnail": "https://i.postimg.cc/Dwfmhr3H/pulp-fiction.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
     "plot": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
     "duration": "2h 34m",
     "similarity": 99,
@@ -696,7 +695,7 @@
     "name": "Six Feet Under",
     "type": "lastAdded",
     "thumbnail": "https://image.tmdb.org/t/p/original/7vb98AvODPzyDgxw1k46URgqdrN.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/2oRDmSZsMB1Gukv52AP227zu5w5.jpg",
     "plot": "A darkly comic look at members of a dysfunctional L.A. family that run a funeral business. When death is your business, what is your life? For the Fisher family, the world outside of their family-owned funeral home continues to be at least as challenging as--and far less predictable than--the one inside.",
     "seasons": 5,
     "similarity": 98,
@@ -739,7 +738,7 @@
       },
       {
         "name": "8. Crossroads",
-        "description":"Riding in a limo, a drunken Chloe is celebrating her new-found freedom with friends. she stands up with her head out the sunroof to scream it to the world... and loses her head, literally. The business is a bit slow these days, so Nate and David decide to rent out a room at the funeral home to supplement the loss. Frederico is being wooed by Kroehner's and he contemplates doing it for the experience and the money. Claire is hiking in the mountains but doesn't really understand the point of it all.",
+        "description": "Riding in a limo, a drunken Chloe is celebrating her new-found freedom with friends. she stands up with her head out the sunroof to scream it to the world... and loses her head, literally. The business is a bit slow these days, so Nate and David decide to rent out a room at the funeral home to supplement the loss. Frederico is being wooed by Kroehner's and he contemplates doing it for the experience and the money. Claire is hiking in the mountains but doesn't really understand the point of it all.",
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/a2P8RGzfkjPBkClqmWjSPyIwngO.jpg"
       },
       {
@@ -773,7 +772,7 @@
     "name": "Trainspotting",
     "type": "lastAdded",
     "thumbnail": "https://image.tmdb.org/t/p/original/e9GbzPawXDFvLwSseCXpHkbCyAP.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
     "plot": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends -- Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind when Begbie shows up at his front door on the lam, and a scheming Sick Boy follows.",
     "duration": "1h 34m",
     "similarity": 99,
@@ -783,7 +782,7 @@
     "name": "Alien",
     "type": "lastAdded",
     "thumbnail": "https://image.tmdb.org/t/p/original/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
     "plot": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
     "duration": "1h 57m",
     "similarity": 99,
@@ -793,7 +792,27 @@
     "name": "Se7en",
     "type": "lastAdded",
     "thumbnail": "https://image.tmdb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
-    "hero":"https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
+    "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    "duration": "2h 7m",
+    "similarity": 99,
+    "year": 1995
+  },
+  {
+    "name": "Se7en",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
+    "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    "duration": "2h 7m",
+    "similarity": 99,
+    "year": 1995
+  },
+  {
+    "name": "Se7en",
+    "type": "lastAdded",
+    "thumbnail": "https://image.tmdb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
     "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
     "duration": "2h 7m",
     "similarity": 99,

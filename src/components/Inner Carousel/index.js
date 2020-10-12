@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import "./style.scss";
 import "slick-carousel/slick/slick-theme.css";
+import Card from '../Card'
 
 class InnerCarousel extends React.Component {
   render() {
@@ -21,25 +22,17 @@ class InnerCarousel extends React.Component {
     };
 
     const { content } = this.props;
-    console.log(content)
+   
     return (
       <div className="carousel-container">
         <Slider {...settings}>
           {content.map((content, key) => {
             return (
               <>
-                <Link
-                  to={`/contenido/${content.name
-                    .replace(/\s/g, "-")
-                    .toLowerCase()}`}
-                >
-                  <img
-                    className="carousel-thumbnail"
-                    key={key}
-                    src={content.thumbnail}
-                    alt={content.name + " thumbnail"}
-                  />
-                </Link>
+              <Card thumbnail={content.thumbnail}
+              alt={content.name}
+              key={key}
+              content={content}/>
               </>
             );
           })}

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={App} />
-    <Route exact path="/contenido/:id" component={DetailPage} />
+    <Route exact path="/content/:id" component={DetailPage} />
   </Router>,
   document.getElementById("root")
 );

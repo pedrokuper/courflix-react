@@ -7,11 +7,11 @@ import Carousel from "./components/Carousel";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <Navbar />
         <Hero />
         <Carousel />
-      </div>
+      </>
     );
   }
 }
