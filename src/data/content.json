@@ -8,7 +8,7 @@
     "seasons": 2,
     "similarity": 95,
     "year": 2017,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Snow Gives Way",
         "description": "After being declared dead 15 years earlier, Danny Rand returns to New York. But his welcome is a far cry from what he'd hoped.",
@@ -86,7 +86,7 @@
     "seasons": 4,
     "similarity": 99,
     "year": 2013,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Pilot",
         "description": "Rick moves in with his daughter's family and establishes himself as a bad influence on his grandson, Morty.",
@@ -153,7 +153,7 @@
     "seasons": 2,
     "similarity": 98,
     "year": 2018,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Steven Sees a Ghost",
         "description": "While investigating a ghost story for his latest novel, a skeptical Steven receives a call from his sister that triggers a chain of fateful events.",
@@ -214,7 +214,7 @@
     "seasons": 5,
     "similarity": 85,
     "year": 2016,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Pilot",
         "description": "Upon leaving hell, Lucifer Morningstar retreats to Los Angeles for a more exciting life. When the murder of a friend connects him with LAPD detective Chloe Decker, Lucifer becomes intrigued with the idea of punishing criminals, sending the devil himself into a struggle between good and evil.",
@@ -291,7 +291,7 @@
     "seasons": 2,
     "similarity": 98,
     "year": 2018,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Ace Degenerate",
         "description": "Thirty years after the events of the 1984 All Valley Karate Tournament, Johnny Lawrence’s life has taken a rocky turn as he tries to forget a past that constantly haunts him. He seeks redemption by reopening the infamous Cobra Kai karate dojo. But the LaRusso-Lawrence rivalry of yesteryear is reignited when their lives become intertwined with the next generation of 'karate kids.'",
@@ -353,7 +353,7 @@
     "seasons": 2,
     "similarity": 98,
     "year": 2011,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Winter is coming",
         "description": "Jon Arryn, the Hand of the King, is dead. King Robert Baratheon plans to ask his oldest friend, Eddard Stark, to take Jon's place. Across the sea, Viserys Targaryen plans to wed his sister to a nomadic warlord in exchange for an army.",
@@ -415,7 +415,7 @@
     "seasons": 2,
     "similarity": 90,
     "year": 2017,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Capítulo 1",
         "description": "Tokio, una joven experta en asaltos, se esconde de la policía en una auto caravana. De allí la rescata El Profesor, un enigmático personaje que le propone el golpe de su vida, '¿Cómo te suenan 2.400 millones de euros?'. Ella se unirá al grupo reclutado por El Profesor - cinco meses concentrados en una finca de Toledo. El Profesor les explica al milímetro todos y cada uno de los pasos a dar una vez comience el asalto a La Fábrica Nacional de Moneda y Timbre.",
@@ -528,28 +528,147 @@
     "progress": 43
   },
   {
-    "name": "Mindhunter",
+    "name": "Parasite",
     "type": "keepWatching",
-    "thumbnail": "https://i.postimg.cc/Z5R2wVsP/mindhunter.png",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/xnPYcbmTN3l58uU93wcboBXD0oW.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/tv2gjDxaxyhVNDESFLJ6oGT10sL.jpg",
+    "plot": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "duration": "2h 13m",
+    "similarity": 99,
+    "year": 2019,
+    "progress": 73
   },
   {
-    "name": "Westworld",
+    "name": "The Social Network",
     "type": "keepWatching",
-    "thumbnail": "https://image.tmdb.org/t/p/original/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
-    "progress": 78
+    "thumbnail": "https://image.tmdb.org/t/p/original/65D7t8wgZFpjOTvIp1HQvHFY0fC.jpg",
+    "hero": "https://image.tmdb.org/t/p/original/zPaWTuYD9gceF2ILlI7zyJzqYlr.jpg",
+    "plot": "On a fall night in 2003, Harvard undergrad and computer programming genius Mark Zuckerberg sits down at his computer and heatedly begins working on a new idea. In a fury of blogging and programming, what begins in his dorm room as a small site among friends soon becomes a global social network and a revolution in communication. A mere six years and 500 million friends later, Mark Zuckerberg is the youngest billionaire in history... but for this entrepreneur, success leads to both personal and legal complications.",
+    "duration": "2h 1m",
+    "similarity": 79,
+    "year": 2010,
+    "progress": 73
   },
   {
     "name": "Breaking Bad",
     "type": "keepWatching",
     "thumbnail": "https://image.tmdb.org/t/p/original/scGGbGjVbNyqKbJ6QnlPPY5je0v.jpg",
-    "progress": 8
+    "hero":"https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
+    "plot": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+    "seasons": 5,
+    "similarity": 98,
+    "year": 2008,
+    "episodes": [
+      {
+        "name": "1. Pilot",
+        "description": "When an unassuming high school chemistry teacher discovers he has a rare form of lung cancer, he decides to team up with a former student and create a top of the line crystal meth in a used RV, to provide for his family once he is gone.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/ydlY3iPfeOAvu8gVqrxPoMvzNCn.jpg"
+      },
+      {
+        "name": "2. Cat's in the Bag...",
+        "description": "Walt and Jesse attempt to tie up loose ends. The desperate situation gets more complicated with the flip of a coin. Walt's wife, Skyler, becomes suspicious of Walt's strange behavior.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/tjDNvbokPLtEnpFyFPyXMOd6Zr1.jpg"
+      },
+      {
+        "name": "3. ...And the Bag's in the River",
+        "description": "Walter fights with Jesse over his drug use, causing him to leave Walter alone with their captive, Krazy-8. Meanwhile, Hank has a scared straight moment with Walter Jr. after his aunt discovers he has been smoking pot. Also, Skylar is upset when Walter stays away from home.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/2kBeBlxGqBOdWlKwzAxiwkfU5on.jpg"
+      },
+      {
+        "name": "4. Cancer Man",
+        "description": "Walter finally tells his family that he has been stricken with cancer. Meanwhile, the DEA believes Albuquerque has a new, big time player to worry about. Meanwhile, a worthy recipient is the target of a depressed Walter's anger, and Jesse makes a surprise visit to his parents home.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/i5BAJVhuIWfkoSqDID6FnQNCTVc.jpg"
+      },
+      {
+        "name": "5. Gray Matter",
+        "description": "Walter and Skyler attend a former colleague's party. Jesse tries to free himself from the drugs, while Skyler organizes an intervention.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/82G3wZgEvZLKcte6yoZJahUWBtx.jpg"
+      },
+      {
+        "name": "6. Crazy Handful of Nothin'",
+        "description": "The side effects of chemo begin to plague Walt. Meanwhile, the DEA rounds up suspected dealers.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/hyYwqbmcHn3fuxWE3h4IhZZbkU3.jpg"
+      },
+      {
+        "name": "7. A No-Rough-Stuff-Type Deal",
+        "description": "Walter accepts his new identity as a drug dealer after a PTA meeting. Elsewhere, Jesse decides to put his aunt's house on the market and Skyler is the recipient of a baby shower.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/1dgFAsajUpUT7DLXgAxHb9GyXHH.jpg"
+      }
+    ],
+    "progress": 33
   },
   {
-    "name": "The Sopranos",
+    "name": "American Horror Story",
     "type": "keepWatching",
-    "thumbnail": "https://image.tmdb.org/t/p/original/jQaEgaZlY0zxsaFAyrJB4wfwHo8.jpg",
-    "progress": ""
+    "thumbnail": "https://image.tmdb.org/t/p/original/cAQDLQVFNg6CRDfvIzrCXAUMWnT.jpg",
+    "hero":"https://image.tmdb.org/t/p/original/cUUnjDQwcGfFKhc0jQKseLRsyiY.jpg",
+    "plot": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke and a cult.",
+    "seasons": 9,
+    "similarity": 98,
+    "year": 2011,
+    "episodes": [
+      {
+        "name": "1. Pilot",
+        "description": "A therapist and his family move across the country to escape their troubled past but quickly discover that their new home comes with its own horrific baggage.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/71aRrn1Bu3rIlIURFWAgFzLZkjf.jpg"
+      },
+      {
+        "name": "2. Home Invasion",
+        "description": "Vivien and Violet get themselves caught in a dangerous situation. Meanwhile, Ben goes back to Boston to fix a mistake that he made.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/24ugyFFz3CD9g6t7jEbdXLiUmro.jpg"
+      },
+      {
+        "name": "3. Murder House",
+        "description": "Vivien learns the horrific truth about the house's first residents and Ben's visitor causes him to further unravel about what really happened in the haunted house. Constance and Moira have their history revealed.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/qYZj2000oVgQvL2qWGZbm1Z2LYX.jpg"
+      },
+      {
+        "name": "4. Halloween, Pt. 1",
+        "description": "The line between the living and the dead blurs on Halloween. Two of the house's previous residents give the Harmons decorating advice.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/wEyVM1QLBAqTLGxxSQWi5wsc0FD.jpg"
+      },
+      {
+        "name": "5. Halloween, Pt. 2",
+        "description": "Tate comes face to face with his past, and Ben and Vivien are haunted by a new houseguest before Halloween night comes to an end.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/u9P51AgyvsaoKVlqDyUBC00yw65.jpg"
+      },
+      {
+        "name": "6. Piggy, Piggy",
+        "description": "Constance enlists Violet's assistance with Tate. Ben helps a new patient confront his fears.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/2ZfgFdAnPLw264NiIpob6ODNR2L.jpg"
+      },
+      {
+        "name": "7.Open House",
+        "description": "Moira persuades a buyer to make an offer while Constance and Larry work against her efforts.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/sSliNZXfHzDZKQQZc85zkth9rSR.jpg"
+      },
+      {
+        "name": "8.Rubber Man",
+        "description":"The man in the rubber suit is revealed.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/zrmWli2rdj9mrWeVHRoWZbn513c.jpg"
+      },
+      {
+        "name": "9. Spooky Little Girl",
+        "description": "One of history's most famous murder victims pays the house a visit. Constance discovers more of Tate's bad behavior.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/uyvewdpjODNcfyYMSBQ3B9aDccP.jpg"
+      },
+      {
+        "name": "10. Smoldering Children",
+        "description": "Violet learns about the rules of the house. The truth about Larry's condition is explained. Constance is interrogated by the police.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/8iKtNib84Iy6ASU3xfElZz0V5Ae.jpg"
+      },
+      {
+        "name": "11. Birth",
+        "description": "Vivien gives birth. Tate and Violet attempt to rid the house of some of its ghosts for good.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/w9inideNIdY01pIfitvADtECjsC.jpg"
+      },
+      {
+        "name": "12. Afterbirth",
+        "description": "In the aftermath of family tragedy, Ben tries to take his child out of the Murder House. Meanwhile, Violet and Vivien accustom themselves to their new living arrangements, Constance raises Tate's child as her own and a new family buys the house.",
+        "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/sVVbEAkSUbH692x9r3nlyjniJDD.jpg"
+      }
+    ],
+    "progress": 33
   },
   
   {
@@ -582,7 +701,7 @@
     "seasons": 5,
     "similarity": 98,
     "year": 2001,
-    "chapters": [
+    "episodes": [
       {
         "name": "1. Pilot",
         "description": "After the patriarch of the family, dies in a hearse-accident, the family comes together to mourn and decide the fate of the family Funeral Home. Nate, who works for an organic grocery store in Seattle, has to deal with more than just the death of his father. His mother, Ruth, is taking the death especially hard because she had been having an affair with her hairdresser, Hiram. David, the closeted homosexual who has helped with the business, has a difficult transition running things. Claire, the youngest of the clan, is a teenager in high-school trying to get comfortable in her own skin. On top of everything the family is already going through, they have a corporate funeral company hounding them to sell out.",
