@@ -8,7 +8,7 @@ class Card extends React.Component {
     const {thumbnail, alt,content} = this.props
     return(
       <>
-      <Link to={`/content/${content.name.replace(/\s/g, "-").toLowerCase()}`}>
+      <Link to={`/content/${content.title.replace(/\s/g, "-").toLowerCase()}`}>
         <img className="carousel-thumbnail" src={thumbnail} alt={`${alt} thumnail`}/>
         </Link> 
       </>

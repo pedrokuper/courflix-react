@@ -1,15 +1,25 @@
 .content-detail {
-  .title {
-    font-size: 5rem;
-  }
+  background-color: #000;
+  min-height: 100vh;
+
   .content-info {
-    margin-top: -600px;
     padding: 25px;
+    margin-top: -700px;
+    color: white;
+
+    .title {
+      font-size: 5rem;
+      margin-bottom: 50px;
+    }
+
+    .info {
+      margin-right: 30px;
+      font-size: 1.3rem;
+    }
+
+    .coincidence {
+      color: green;
+      font-weight: bold;
+    }
   }
 }
-
-/*
-  backgroundmage: ""
-    mix-blend-mode: multiply;
-
-*/

@@ -30,7 +30,7 @@ class InnerCarousel extends React.Component {
             return (
               <>
               <Card thumbnail={content.thumbnail}
-              alt={content.name}
+              alt={content.title}
               key={key}
               content={content}/>
               </>

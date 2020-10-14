@@ -6,45 +6,79 @@ import "./style.scss";
 
 class DetailPage extends React.Component {
   state = {
-    desc: "",
-    img: "",
-    title: ""
+    title: "",
+    hero: "",
+    plot: "",
+    seasons: "",
+    similarity: "",
+    year: "",
+    episodes: [],
+    duration: "",
   };
 
   componentDidMount() {
     const { id } = this.props.match.params;
     const findContent = content.find((content) => {
-      return content.name.toLowerCase().replace(/\s/g, "-") == id;
+      const contentTitle = content.title.toLowerCase();
+      return contentTitle.replace(/\s/g, "-") === id; // Reemplaza los espacios por un '-'.
     });
+
+    const {
+      title,
+      hero,
+      plot,
+      seasons,
+      similarity,
+      year,
+      episodes,
+      duration,
+    } = findContent;
+
     this.setState({
-      img: findContent.thumbnail,
-      desc: findContent.desc,
-      title: findContent.name
+      title,
+      hero,
+      plot,
+      seasons,
+      similarity,
+      year,
+      episodes,
+      duration,
     });
   }
 
   render() {
-    const { desc, img, title } = this.state;
+    const {
+      title,
+      hero,
+      plot,
+      seasons,
+      similarity,
+      year,
+      episodes,
+      duration,
+    } = this.state;
     const heroImg = {
-      backgroundImage: `url(${img})`,
+      backgroundImage: `url(${hero})`,
       backgroundSize: "cover",
-      height: "100vh"
+
+      minHeight: "90vh",
     };
 
     return (
       <>
-        {/* <Navbar /> */}
+        <Navbar />
         <section className="content-detail">
-          <div style={heroImg} className="hero">
-            <h1 className="title">{title}</h1>
-          </div>
+          <div style={heroImg} className="hero hero-gradient"></div>
           <div className="content-info">
-            <p>95% de coincidencia</p>
-            <p>2016</p>
-            <p>+16</p>
-            <p>5 temporadas</p>
-            <Button title="Reproducir" />
-            <Button title="Mi Lista" />
+            <h1 className="title">{title}</h1>
+            <span className="info coincidence">{`${similarity}% de coincidencia`}</span>
+            <span className="info">{year}</span>
+            <span className="info">{duration}</span>
+            <span className="info">{`${seasons} temporadas`}</span>
+            <div>
+              <Button title="Reproducir" />
+              <Button title="Mi Lista" />
+            </div>
           </div>
         </section>
       </>
