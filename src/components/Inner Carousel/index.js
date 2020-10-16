@@ -1,9 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
 import "./style.scss";
 import "slick-carousel/slick/slick-theme.css";
-import Card from '../Card'
+import Card from "../Card";
 
 class InnerCarousel extends React.Component {
   render() {
@@ -18,21 +17,23 @@ class InnerCarousel extends React.Component {
       centerMode: false,
       className: "slides",
       lazyLoad: true,
-      edgeFriction: 5
+      edgeFriction: 5,
     };
 
     const { content } = this.props;
-   
+
     return (
       <div className="carousel-container">
         <Slider {...settings}>
           {content.map((content, key) => {
             return (
               <>
-              <Card thumbnail={content.thumbnail}
-              alt={content.title}
-              key={key}
-              content={content}/>
+                <Card
+                  thumbnail={content.thumbnail}
+                  alt={content.title}
+                  key={key}
+                  content={content}
+                />
               </>
             );
           })}

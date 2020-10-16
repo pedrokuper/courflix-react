@@ -212,7 +212,7 @@
     "hero": "https://image.tmdb.org/t/p/original/cA0PlTcuvKZpRwQQZqCPQ6Cwj1w.jpg",
     "plot": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
     "seasons": 5,
-    "similarity": 85,
+    "similarity": 65,
     "year": 2016,
     "episodes": [
       {
@@ -500,7 +500,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/nevS6wjzCxZESvmjJZqdyZ3RNQ6.jpg",
     "hero": "https://image.tmdb.org/t/p/original/5Hs64K7XXjvrmBXGjjN1MuWh8Xd.jpg",
     "plot": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
-    "duration": "1h 57m",
+    "duration": "1h57m",
     "similarity": 99,
     "year": 1998,
     "progress": 65
@@ -511,7 +511,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/kEA3iOrV1DpHQ3Z01Q28y2Qoc89.jpg",
     "hero": "https://image.tmdb.org/t/p/original/DztBnZaqmla2sGUW9s8AyOmskT.jpg",
     "plot": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
-    "duration": "2h 2m",
+    "duration": "2h2m",
     "similarity": 89,
     "year": 1999,
     "progress": 35
@@ -533,7 +533,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/xnPYcbmTN3l58uU93wcboBXD0oW.jpg",
     "hero": "https://image.tmdb.org/t/p/original/tv2gjDxaxyhVNDESFLJ6oGT10sL.jpg",
     "plot": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-    "duration": "2h 13m",
+    "duration": "2h13m",
     "similarity": 99,
     "year": 2019,
     "progress": 73
@@ -544,7 +544,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/65D7t8wgZFpjOTvIp1HQvHFY0fC.jpg",
     "hero": "https://image.tmdb.org/t/p/original/zPaWTuYD9gceF2ILlI7zyJzqYlr.jpg",
     "plot": "On a fall night in 2003, Harvard undergrad and computer programming genius Mark Zuckerberg sits down at his computer and heatedly begins working on a new idea. In a fury of blogging and programming, what begins in his dorm room as a small site among friends soon becomes a global social network and a revolution in communication. A mere six years and 500 million friends later, Mark Zuckerberg is the youngest billionaire in history... but for this entrepreneur, success leads to both personal and legal complications.",
-    "duration": "2h 1m",
+    "duration": "2h1m",
     "similarity": 79,
     "year": 2010,
     "progress": 73
@@ -676,7 +676,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg",
     "hero": "https://image.tmdb.org/t/p/original/dCShRbkis2ftkW9cUhQ117ew2JW.jpg",
     "plot": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-    "duration": "1h 39m",
+    "duration": "1h39m",
     "similarity": 99,
     "year": 2004,
     "progress": 35
@@ -687,7 +687,7 @@
     "thumbnail": "https://i.postimg.cc/Dwfmhr3H/pulp-fiction.jpg",
     "hero": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
     "plot": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-    "duration": "2h 34m",
+    "duration": "2h34m",
     "similarity": 99,
     "year": 1994
   },
@@ -774,7 +774,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/e9GbzPawXDFvLwSseCXpHkbCyAP.jpg",
     "hero": "https://image.tmdb.org/t/p/original/fx5O063XKJeaJfmcN7vBUCL4eOd.jpg",
     "plot": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends -- Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind when Begbie shows up at his front door on the lam, and a scheming Sick Boy follows.",
-    "duration": "1h 34m",
+    "duration": "1h34m",
     "similarity": 99,
     "year": 1996
   },
@@ -784,7 +784,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
     "hero": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
     "plot": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
-    "duration": "1h 57m",
+    "duration": "1h57m",
     "similarity": 99,
     "year": 1979
   },
@@ -794,7 +794,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
     "hero": "https://image.tmdb.org/t/p/original/4U4q1zjIwCZTNkp6RKWkWPuC7uI.jpg",
     "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
-    "duration": "2h 7m",
+    "duration": "2h7m",
     "similarity": 99,
     "year": 1995
   },
@@ -856,7 +856,7 @@
     "thumbnail": "https://image.tmdb.org/t/p/original/16zzKM5vDxnYiqG6Tg6wOkOLSmj.jpg",
     "hero": "https://image.tmdb.org/t/p/original/hGFMGv33yw22xM6EJFTVGRNvB2w.jpg",
     "plot": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
-    "duration": "1h 35m",
+    "duration": "1h35m",
     "similarity": 99,
     "year": 1980
   }

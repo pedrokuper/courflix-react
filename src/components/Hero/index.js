@@ -4,23 +4,22 @@ import Button from "../Button";
 
 class Hero extends React.Component {
   render() {
+    const heroImg = {
+      backgroundImage: `url(${this.props.hero})`,
+      backgroundSize: "cover",
+      maxHeight: "95vh",
+    };
+
+    
     return (
-      <div className="hero--wrapper">
+      <div className="hero--wrapper" style={heroImg}>
         <section className="hero--section" id="inicio">
           <div className="hero--content">
-            <h2 className="hero--subtitle">Original de COURFLIX</h2>
-            <h1 className="hero--title">BLACK SUMMER</h1>
-            <h3 className="hero--mobile">2019 - 16+ - 1 temporada</h3>
-
+            <h1 className="hero--title">{this.props.title}</h1>
             <Button title="Reproducir" />
             <Button title="Mi Lista" />
-
             <div className="hero--description">
-              <p className="hero--text">Ve la temporada 1</p>
-              <p className="hero--plot">
-                Una ansiada luna de miel. Un asesinato terrible.Varios
-                sospechosos. Si sobreviven, serán unas vacaciones de ensueño.
-              </p>
+              <p className="hero--plot">{this.props.plot}</p>
             </div>
           </div>
         </section>
