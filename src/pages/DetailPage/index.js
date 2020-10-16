@@ -3,6 +3,8 @@ import Navbar from "../../components/Navbar";
 import content from "../../data/content.json";
 import Button from "../../components/Button";
 import "./style.scss";
+import Hero from "../../components/Hero";
+import Carousel from "../../components/Carousel";
 
 class DetailPage extends React.Component {
   state = {
@@ -68,19 +70,17 @@ class DetailPage extends React.Component {
       <>
         <Navbar />
         <section className="content-detail">
-          <div style={heroImg} className="hero hero-gradient"></div>
-          <div className="content-info">
-            <h1 className="title">{title}</h1>
-            <span className="info coincidence">{`${similarity}% de coincidencia`}</span>
-            <span className="info">{year}</span>
-            <span className="info">{duration}</span>
-            <span className="info">{`${seasons} temporadas`}</span>
-            <div>
-              <Button title="Reproducir" />
-              <Button title="Mi Lista" />
-            </div>
-          </div>
+          <Hero
+            title={title}
+            hero={hero}
+            plot={plot}
+            similarity={similarity}
+            year={year}
+            duration={duration}
+            seasons={seasons}
+          />
         </section>
+        {episodes && <Carousel content={episodes} />}
       </>
     );
   }

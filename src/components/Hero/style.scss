@@ -1,42 +1,48 @@
-.hero--wrapper {
+
+
+.container {
   height: 100vh;
   background-image: url(../../assets/bg-cover/netflix-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 
-  .hero--section {
+  .hero {
     padding: 25px;
 
-    .hero--content {
+    .hero__content {
       width: 100%;
       color: #fff;
-      width: 750px;
+      max-width: 850px;
 
-      .hero--subtitle {
-        margin-top: 75px;
-        margin-bottom: 25px;
-      }
-
-      .hero--title {
+      .hero__title {
         font-weight: 700;
-        font-size: 8rem;
+        font-size: 6rem;
         line-height: 8rem;
         margin-bottom: 75px;
         margin-top: 125px;
       }
 
-      .hero--mobile {
-        display: none;
+      .content__info {
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        .info {
+          margin-right: 20px;
+          font-size: 1.3rem;
+        }
+      }
+
+      .coincidence {
+        color: green;
+        font-weight: 600;
       }
 
       .hero--description {
+        margin-top: 55px;
         line-height: 2.5rem;
-        font-weight: 300;
-        font-size: 1.7rem;
-
-        .hero--text {
-          margin: 3rem 0;
-        }
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-align: justify;
       }
     }
   }
