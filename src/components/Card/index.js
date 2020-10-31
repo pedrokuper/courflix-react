@@ -7,6 +7,12 @@ class Card extends React.Component {
     const { thumbnail, alt, content, progress } = this.props;
     const contentTitle = content.title.toLowerCase();
     const contentPath = contentTitle.replace(/\s/g, "-");
+    const percentageBar = {
+      width: `${progress}%`,
+      height: "100%",
+      backgroundColor: "#C60F0E",
+    };
+    console.log(percentageBar);
     return (
       <>
         <Link to={`/content/${contentPath}`}>
@@ -17,11 +23,9 @@ class Card extends React.Component {
           />
         </Link>
         {progress && (
-          <progress
-            className="progress-bar"
-            value={progress}
-            max="100"
-          ></progress>
+          <div className="progress-bar">
+            <div style={percentageBar}></div>
+          </div>
         )}
       </>
     );

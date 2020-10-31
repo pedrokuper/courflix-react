@@ -208,7 +208,7 @@
   {
     "title": "Lucifer",
     "type": "keepWatching",
-    "thumbnail": "https://i.postimg.cc/8cm903V4/lucifer.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/original/mAXOCbZzvmDa6PCh5dcIPOB51Qc.jpg",
     "hero": "https://image.tmdb.org/t/p/original/ak9lEYYrWpnIvXzVAR0tnDXhDFX.jpg",
     "plot": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
     "seasons": 5,
@@ -281,7 +281,7 @@
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/fUOlgpJgR9GBHBvLqad0zZUk0aO.jpg"
       }
     ],
-    "progress": 35
+    "progress": 5
   },
   {
     "title": "Cobra Kai",
@@ -514,7 +514,7 @@
     "duration": "2h2m",
     "similarity": 89,
     "year": 1999,
-    "progress": 35
+    "progress": 55
   },
   {
     "title": "Full Metal Jacket",
@@ -525,7 +525,7 @@
     "duration": "1h 56m",
     "similarity": 89,
     "year": 1999,
-    "progress": 43
+    "progress": 99
   },
   {
     "title": "Parasite",
@@ -536,7 +536,7 @@
     "duration": "2h13m",
     "similarity": 99,
     "year": 2019,
-    "progress": 73
+    "progress": 53
   },
   {
     "title": "The Social Network",
@@ -668,7 +668,7 @@
         "thumbnail": "https://image.tmdb.org/t/p/w227_and_h127_bestv2/sVVbEAkSUbH692x9r3nlyjniJDD.jpg"
       }
     ],
-    "progress": 33
+    "progress": 93
   },
   {
     "title": "Shaun of the Dead",
@@ -679,7 +679,7 @@
     "duration": "1h39m",
     "similarity": 99,
     "year": 2004,
-    "progress": 35
+    "progress": 85
   },
   {
     "title": "Pulp Fiction",
