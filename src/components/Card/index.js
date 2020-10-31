@@ -17,13 +17,11 @@ class Card extends React.Component {
           />
         </Link>
         {progress && (
-          <div className="progress-container">
-            <progress
-              className="progress-bar"
-              value={progress}
-              max="100"
-            ></progress>
-          </div>
+          <progress
+            className="progress-bar"
+            value={progress}
+            max="100"
+          ></progress>
         )}
       </>
     );
