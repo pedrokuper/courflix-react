@@ -19,6 +19,7 @@ class DetailPage extends React.Component {
   };
 
   componentDidMount() {
+    console.log(this.props);
     const { id } = this.props.match.params;
     const findContent = content.find((content) => {
       const contentTitle = content.title.toLowerCase();
@@ -87,16 +88,3 @@ class DetailPage extends React.Component {
 }
 
 export default DetailPage;
-
-/*
-    <img src={this.state.img}
-      className="breaking-bad-logo"
-      alt="Breaking Bad Logo"
-    />
-    <div class="serie-info">
-      <p class="year data">2016</p>
-      <p class="rated data">+16</p>
-      <p class="duration data">5 temporadas</p>
-      <p style={{ marginTop: "220px" }}></p>
-    </div>
- */

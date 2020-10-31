@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Carousel from "./components/Carousel";
 
-import hero from "./data/hero.json";
+import heroContent from "./data/hero.json";
 
 class App extends React.Component {
   handleContent(type) {
@@ -16,25 +16,32 @@ class App extends React.Component {
     return getContent;
   }
   render() {
-    const [first] = hero;
+    const [firstHero] = heroContent;
 
+    const { hero, plot, title, year, duration, similarity } = firstHero;
     return (
       <>
         <Navbar />
         <Hero
-          hero={first.hero}
-          plot={first.plot}
-          title={first.title}
-          year={first.year}
-          duration={first.duration}
-          similarity={first.similarity}
+          id="inicio"
+          hero={hero}
+          plot={plot}
+          title={title}
+          year={year}
+          duration={duration}
+          similarity={similarity}
         />
-        <Carousel title="Series" content={this.handleContent("series")} />
+        <Carousel
+          title="Series"
+          content={this.handleContent("series")}
+          id="series"
+        />
         <Carousel
           title="Seguir viendo contenido de Pedro"
           content={this.handleContent("keepWatching")}
         />
         <Carousel
+          id="last-added"
           title="Agregados recientemente"
           content={this.handleContent("lastAdded")}
         />

@@ -16,11 +16,19 @@ class Navbar extends React.Component {
         </Link>
         <nav className="navbar">
           <ul className="navbar-list">
-            <li className="navbar-link">Inicio</li>
-            <li className="navbar-link">Series</li>
+            <a href="#inicio">
+              <li className="navbar-link">Inicio</li>
+            </a>
+            <a href="#series">
+              <li className="navbar-link">Series</li>
+            </a>
             <li className="navbar-link">Películas</li>
-            <li className="navbar-link">Agregados recientemente</li>
-            <li className="navbar-link">Mi lista</li>
+            <a href="#last-added">
+              <li className="navbar-link">Agregados recientemente</li>
+            </a>
+            <Link to="/mylist">
+              <li className="navbar-link">Mi lista</li>
+            </Link>
           </ul>
         </nav>
       </div>

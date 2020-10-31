@@ -33,6 +33,7 @@ class InnerCarousel extends React.Component {
                   alt={content.title}
                   key={key}
                   content={content}
+                  progress="nada"
                 />
               </>
             );
