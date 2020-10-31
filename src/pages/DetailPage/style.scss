@@ -1,25 +1,28 @@
-.content-detail {
-  background-color: #000;
-  min-height: 100vh;
+.details-page-wrapper {
+  
+  .content-detail {
+    background-color: #000;
+    height: 95vh;
 
-  .content-info {
-    padding: 25px;
-    margin-top: -700px;
-    color: white;
+    .content-info {
+      padding: 25px;
+      margin-top: -700px;
+      color: white;
 
-    .title {
-      font-size: 5rem;
-      margin-bottom: 50px;
-    }
+      .title {
+        font-size: 5rem;
+        margin-bottom: 50px;
+      }
 
-    .info {
-      margin-right: 30px;
-      font-size: 1.3rem;
-    }
+      .info {
+        margin-right: 30px;
+        font-size: 1.3rem;
+      }
 
-    .coincidence {
-      color: green;
-      font-weight: bold;
+      .coincidence {
+        color: green;
+        font-weight: bold;
+      }
     }
   }
 }

@@ -68,7 +68,7 @@ class DetailPage extends React.Component {
     };
 
     return (
-      <>
+      <main className="details-page-wrapper">
         <Navbar />
         <section className="content-detail">
           <Hero
@@ -82,7 +82,7 @@ class DetailPage extends React.Component {
           />
         </section>
         {episodes && <Carousel content={episodes} />}
-      </>
+      </main>
     );
   }
 }
