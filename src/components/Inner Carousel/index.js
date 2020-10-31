@@ -20,7 +20,7 @@ class InnerCarousel extends React.Component {
       edgeFriction: 5,
     };
 
-    const { content } = this.props;
+    const { content, progress } = this.props;
 
     return (
       <div className="carousel-container">
@@ -33,7 +33,7 @@ class InnerCarousel extends React.Component {
                   alt={content.title}
                   key={key}
                   content={content}
-                  progress="nada"
+                  progress={content.progress}
                 />
               </>
             );

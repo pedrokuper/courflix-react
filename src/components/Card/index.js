@@ -4,7 +4,7 @@ import "./style.scss";
 
 class Card extends React.Component {
   render() {
-    const { thumbnail, alt, content } = this.props;
+    const { thumbnail, alt, content, progress } = this.props;
     const contentTitle = content.title.toLowerCase();
     const contentPath = contentTitle.replace(/\s/g, "-");
     return (
@@ -16,6 +16,15 @@ class Card extends React.Component {
             alt={`${alt} thumnail`}
           />
         </Link>
+        {progress && (
+          <div className="progress-container">
+            <progress
+              className="progress-bar"
+              value={progress}
+              max="100"
+            ></progress>
+          </div>
+        )}
       </>
     );
   }

@@ -1,3 +1,11 @@
 .carousel-thumbnail {
   max-width: 350px;
 }
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  progress-bar {
+  }
+}

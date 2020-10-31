@@ -5,13 +5,15 @@ import InnerCarousel from "../Inner Carousel";
 
 class Carousel extends React.Component {
   render() {
-    const { title, id } = this.props;
+    const { title, id, progress, content } = this.props;
     return (
       <div className="carousel">
-        <div className="nav-point" id={id}>asd</div>
+        <div className="nav-point" id={id}>
+          asd
+        </div>
         <section className="carouselSection">
           <CarouselTitle title={title} />
-          <InnerCarousel content={this.props.content} />
+          <InnerCarousel content={content} progress={progress} />
         </section>
       </div>
     );
