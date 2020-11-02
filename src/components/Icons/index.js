@@ -11,33 +11,16 @@ class Icons extends React.Component {
     dislike: "",
   };
 
-  //TODO  La función que hace que los botones se pinten de rojo o verde cuando se da like, hay que refactorizarla para que funcione en una sola.
-
-  handleLike() {
-    const { like } = this.state;
-
-    if (!like) {
-      this.setState({
-        like: "like",
-        dislike: "",
-      });
-    } else {
-      this.setState({
-        like: "",
-      });
-    }
-  }
-  //TODO  La función que hace que los botones se pinten de rojo o verde cuando se da like, hay que refactorizarla para que funcione en una sola.
-  handleDislike() {
-    const { dislike } = this.state;
-    if (!dislike) {
-      this.setState({
-        dislike: "dislike",
-        like: "",
-      });
-    } else {
+  handleSocial(state) {
+    if (state == "like") {
       this.setState({
         dislike: "",
+        like: state,
+      });
+    } else if (state == "dislike") {
+      this.setState({
+        like: "",
+        dislike: state,
       });
     }
   }
@@ -47,13 +30,13 @@ class Icons extends React.Component {
     return (
       <div className="icons-wrapper ">
         <div
-          onClick={() => this.handleLike()}
+          onClick={() => this.handleSocial("like")}
           className={`icon-circle ${this.state.like}`}
         >
           <AiOutlineLike className={`icon`} />
         </div>
         <div
-          onClick={() => this.handleDislike()}
+          onClick={() => this.handleSocial("dislike")}
           className={`icon-circle ${this.state.dislike}`}
         >
           <AiOutlineDislike className={`icon ${this.state.dislike}`} />
