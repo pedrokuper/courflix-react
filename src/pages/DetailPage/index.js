@@ -19,7 +19,6 @@ class DetailPage extends React.Component {
   };
 
   componentDidMount() {
-    console.log(this.props);
     const { id } = this.props.match.params;
     const findContent = content.find((content) => {
       const contentTitle = content.title.toLowerCase();
@@ -79,9 +78,10 @@ class DetailPage extends React.Component {
             year={year}
             duration={duration}
             seasons={seasons}
+            socialIcons={true}
           />
         </section>
-        {episodes && <Carousel content={episodes} />}
+        {episodes && <Carousel content={episodes} seasonData={true} />}
       </main>
     );
   }

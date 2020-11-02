@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/courflix-logo.png";
 import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {

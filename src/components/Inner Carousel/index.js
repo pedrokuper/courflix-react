@@ -20,20 +20,22 @@ class InnerCarousel extends React.Component {
       edgeFriction: 5,
     };
 
-    const { content, progress } = this.props;
+    const { content, seasonData } = this.props;
 
     return (
       <div className="carousel-container">
         <Slider {...settings}>
           {content.map((content, key) => {
+            const { thumbnail, title, progress } = content;
             return (
               <>
                 <Card
-                  thumbnail={content.thumbnail}
-                  alt={content.title}
+                  thumbnail={thumbnail}
+                  alt={title}
                   key={key}
                   content={content}
-                  progress={content.progress}
+                  progress={progress}
+                  seasonData={seasonData}
                 />
               </>
             );

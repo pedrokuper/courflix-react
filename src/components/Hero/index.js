@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Button from "../Button";
+import Icons from "../Icons";
 
 class Hero extends React.Component {
   render() {
@@ -21,8 +22,8 @@ class Hero extends React.Component {
       backgroundColor: "#000000",
     };
 
-    const temporadas = seasons > 1 ? "temporadas" : "temporada";
-
+    const seasonLength = seasons > 1 ? "temporadas" : "temporada";
+    const { socialIcons } = this.props;
     return (
       <div className="container" style={heroImg}>
         <section className="hero" id="inicio">
@@ -34,13 +35,14 @@ class Hero extends React.Component {
               <span className="info">{year}</span>
               <span className="info">{duration}</span>
               {seasons > 0 && (
-                <span className="info">{`${seasons} ${temporadas}`}</span>
+                <span className="info">{`${seasons} ${seasonLength}`}</span>
               )}
             </div>
 
-            <div>
+            <div className="icons-container">
               <Button title="Reproducir" />
               <Button title="Mi Lista" />
+              {socialIcons && <Icons />}
             </div>
             <p className="hero--description">{plot}</p>
           </div>

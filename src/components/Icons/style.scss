@@ -1,0 +1,29 @@
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    border: 5px solid;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+
+    .icon {
+      font-size: 3.5rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.like {
+  color: green;
+}
+
+.dislike {
+  color: red;
+}

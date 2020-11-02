@@ -1,6 +1,5 @@
 .container {
   height: 100vh;
-  background-image: url(../../assets/bg-cover/netflix-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -41,6 +40,10 @@
         font-weight: 600;
         font-size: 1.4rem;
         text-align: justify;
+      }
+      .icons-container {
+        display: flex;
+        align-items: center;
       }
     }
   }
