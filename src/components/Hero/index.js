@@ -41,7 +41,7 @@ class Hero extends React.Component {
 
             <div className="icons-container">
               <Button title="Reproducir" />
-              <Button title="Mi Lista" />
+              <Button title="+ Mi Lista" />
               {socialIcons && <Icons />}
             </div>
             <p className="hero--description">{plot}</p>
