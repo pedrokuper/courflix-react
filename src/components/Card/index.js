@@ -12,7 +12,7 @@ class Card extends React.Component {
       height: "100%",
       backgroundColor: "#C60F0E",
     };
-    console.log(this.props);
+
     return (
       <>
         <Link to={`/content/${contentPath}`}>

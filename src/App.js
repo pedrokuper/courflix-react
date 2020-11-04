@@ -15,6 +15,11 @@ class App extends React.Component {
 
     return getContent;
   }
+
+  handleCallback() {
+    console.log("Abuelo");
+  }
+
   render() {
     const [firstHero] = heroContent;
 
@@ -30,6 +35,7 @@ class App extends React.Component {
           year={year}
           duration={duration}
           similarity={similarity}
+          handleCallback={() => this.handleCallback()}
         />
         <Carousel
           title="Series"

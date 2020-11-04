@@ -4,6 +4,10 @@ import Button from "../Button";
 import Icons from "../Icons";
 
 class Hero extends React.Component {
+  handleCallback2() {
+    this.props.handleCallback();
+  }
+
   render() {
     const {
       title,
@@ -24,6 +28,7 @@ class Hero extends React.Component {
 
     const seasonLength = seasons > 1 ? "temporadas" : "temporada";
     const { socialIcons } = this.props;
+
     return (
       <div className="container" style={heroImg}>
         <section className="hero" id="inicio">
@@ -41,7 +46,10 @@ class Hero extends React.Component {
 
             <div className="icons-container">
               <Button title="Reproducir" />
-              <Button title="+ Mi Lista" />
+              <Button
+                handleCallback={() => this.handleCallback2()}
+                title="+ Mi Lista"
+              />
               {socialIcons && <Icons />}
             </div>
             <p className="hero--description">{plot}</p>
