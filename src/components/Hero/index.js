@@ -28,7 +28,7 @@ class Hero extends React.Component {
       <div className="container" style={heroImg}>
         <section className="hero" id="inicio">
           <div className="hero__content">
-            <h2 className="hero__title">{title}</h2>
+            <h1 className="hero__title">{title}</h1>
 
             <div className="content__info">
               <span className="info coincidence">{`${similarity}% de coincidencia`}</span>
