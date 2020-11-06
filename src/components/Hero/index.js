@@ -4,9 +4,9 @@ import Button from "../Button";
 import Icons from "../Icons";
 
 class Hero extends React.Component {
-  // handleCallback2() {
-  //   this.props.handleCallback2();
-  // }
+  handleCallback2() {
+    this.props.handleCallback2();
+  }
 
   render() {
     const {

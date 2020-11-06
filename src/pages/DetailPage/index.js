@@ -59,18 +59,13 @@ class DetailPage extends React.Component {
       episodes,
       duration,
     } = this.state;
-    const heroImg = {
-      backgroundImage: `url(${hero})`,
-      backgroundSize: "cover",
-
-      minHeight: "90vh",
-    };
 
     return (
       <main className="details-page-wrapper">
         <Navbar />
         <section className="content-detail">
           <Hero
+            showNav={false}
             title={title}
             hero={hero}
             plot={plot}

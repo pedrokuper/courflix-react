@@ -26,7 +26,7 @@ class App extends React.Component {
     const { hero, plot, title, year, duration, similarity } = firstHero;
     return (
       <>
-        <Navbar />
+        <Navbar showNav={true} />
         <Hero
           id="inicio"
           hero={hero}
