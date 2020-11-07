@@ -3,6 +3,14 @@
   display: inline-flex;
   flex-wrap: wrap;
 
+  @media (min-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   .hero-button {
     text-decoration: none;
     background: rgba(157, 151, 151, 0.541521);
@@ -13,6 +21,12 @@
     font-weight: 600;
     border: none;
     outline: none;
+
+    @media (min-width: 360px) {
+      padding: 10px 20px;
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
   }
 
   & :link,

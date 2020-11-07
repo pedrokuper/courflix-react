@@ -20,19 +20,15 @@ class Hero extends React.Component {
     } = this.props;
 
     const heroImg = {
-      backgroundImage: `url(${hero})`,
-      backgroundSize: "cover",
-      backgroundPosition: "top",
-      maxHeight: "100vh",
-      
+      backgroundImage: `linear-gradient(-45deg, rgba(0, 0, 0, 0.0001) 25%, #000000 100%),url(${hero})`,
     };
 
     const seasonLength = seasons > 1 ? "temporadas" : "temporada";
     const { socialIcons } = this.props;
 
     return (
-      <div style={heroImg}>
-        <section className="hero" id="inicio">
+      <div className="hero" style={heroImg}>
+        <section id="inicio">
           <div className="hero__content">
             <h1 className="hero__title">{title}</h1>
 
@@ -45,14 +41,14 @@ class Hero extends React.Component {
               )}
             </div>
 
-            <div className="icons-container">
+            <div className="button-container">
               <Button title="Reproducir" />
               <Button
                 handleCallback={() => this.handleCallback2()}
                 title="+ Mi Lista"
               />
-              {socialIcons && <Icons />}
             </div>
+            <div className="icons-container">{socialIcons && <Icons />}</div>
             <p className="hero--description">{plot}</p>
           </div>
         </section>

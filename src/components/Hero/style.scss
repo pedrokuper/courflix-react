@@ -1,11 +1,14 @@
 .hero {
   padding: 35px;
-  height: 100vh;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.568),
-    rgba(255, 255, 255, 0.061)
-  );
+  min-height: 100vh;
+  background-position: top;
+  background-size: cover;
+
+  @media (min-width: 360px) {
+    padding: 15px;
+    min-height: 55vh;
+    background-position: 50%;
+  }
 
   .hero__content {
     color: #fff;
@@ -15,8 +18,13 @@
       font-weight: 700;
       font-size: 6rem;
       line-height: 8rem;
-      margin-bottom: 75px;
-      margin-top: 80px;
+
+      @media (min-width: 360px) {
+        font-size: 2.6rem;
+        margin-top: 80px;
+        margin-bottom: 25px;
+        line-height: 3rem;
+      }
     }
 
     .content__info {
@@ -27,11 +35,15 @@
       .info {
         margin-right: 20px;
         font-size: 1.3rem;
+
+        @media (min-width: 360px) {
+          font-size: 0.85rem;
+        }
       }
     }
 
     .coincidence {
-      color: green;
+      color: rgb(1, 202, 1);
       font-weight: 600;
     }
 
@@ -40,7 +52,13 @@
       line-height: 2.25rem;
       font-weight: 600;
       font-size: 1.3rem;
-      text-align: justify;
+      text-align: left;
+
+      @media (min-width: 360px) {
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: left;
+      }
     }
     .icons-container {
       display: flex;
