@@ -22,16 +22,16 @@ class Hero extends React.Component {
     const heroImg = {
       backgroundImage: `url(${hero})`,
       backgroundSize: "cover",
-      maxHeight: "100vh",
-      backgroundColor: "#000000",
       backgroundPosition: "top",
+      maxHeight: "100vh",
+      
     };
 
     const seasonLength = seasons > 1 ? "temporadas" : "temporada";
     const { socialIcons } = this.props;
 
     return (
-      <div className="container" style={heroImg}>
+      <div style={heroImg}>
         <section className="hero" id="inicio">
           <div className="hero__content">
             <h1 className="hero__title">{title}</h1>
