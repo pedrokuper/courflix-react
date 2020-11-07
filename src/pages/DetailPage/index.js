@@ -61,9 +61,9 @@ class DetailPage extends React.Component {
     } = this.state;
 
     return (
-      <main className="details-page-wrapper">
+      <main>
         <Navbar />
-        <section className="content-detail">
+        <section>
           <Hero
             showNav={false}
             title={title}

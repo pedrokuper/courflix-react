@@ -22,8 +22,9 @@ class Hero extends React.Component {
     const heroImg = {
       backgroundImage: `url(${hero})`,
       backgroundSize: "cover",
-      minHeight: "100vh",
+      maxHeight: "100vh",
       backgroundColor: "#000000",
+      backgroundPosition: "top",
     };
 
     const seasonLength = seasons > 1 ? "temporadas" : "temporada";

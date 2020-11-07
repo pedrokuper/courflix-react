@@ -12,12 +12,12 @@ class Icons extends React.Component {
   };
 
   handleSocial(state) {
-    if (state == "like") {
+    if (state === "like") {
       this.setState({
         dislike: "",
         like: state,
       });
-    } else if (state == "dislike") {
+    } else if (state === "dislike") {
       this.setState({
         like: "",
         dislike: state,
@@ -26,20 +26,20 @@ class Icons extends React.Component {
   }
 
   render() {
-    console.log(this.state);
+    const { like, dislike } = this.state;
     return (
       <div className="icons-wrapper ">
         <div
           onClick={() => this.handleSocial("like")}
-          className={`icon-circle ${this.state.like}`}
+          className={`icon-circle ${like}`}
         >
           <AiOutlineLike className={`icon`} />
         </div>
         <div
           onClick={() => this.handleSocial("dislike")}
-          className={`icon-circle ${this.state.dislike}`}
+          className={`icon-circle ${dislike}`}
         >
-          <AiOutlineDislike className={`icon ${this.state.dislike}`} />
+          <AiOutlineDislike className={`icon ${dislike}`} />
         </div>
       </div>
     );
