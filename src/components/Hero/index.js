@@ -42,7 +42,7 @@ class Hero extends React.Component {
             </div>
 
             <div className="button-container">
-              <Button title="Reproducir" />
+              <Button title="Reproducir" className="btn-red" />
               <Button
                 handleCallback={() => this.handleCallback2()}
                 title="+ Mi Lista"

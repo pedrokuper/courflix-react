@@ -12,10 +12,8 @@ class Button extends React.Component {
   render() {
     const { title } = this.props;
     return (
-      <div className="hero--buttons">
-        <button  className="hero-button">
-          {title}
-        </button>
+      <div className={`hero--buttons`}>
+        <button className={`hero-button play my-list`}>{title}</button>
       </div>
     );
   }
