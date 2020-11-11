@@ -1,12 +1,25 @@
-.carousel-thumbnail,
-.progress-bar {
+@import "../../styles/variables.scss";
+
+.carousel-thumbnail {
   max-width: 350px;
+
+  @media (max-width: $sm) {
+    max-width: 300px;
+    margin-left: 10px;
+  }
 }
 
 .progress-bar {
   background-color: #cccccc;
-  height: 15px;
+  height: 5px;
   margin-top: 15px;
+  max-width: 350px;
+  box-sizing: content-box;
+
+  @media (max-width: $sm) {
+    max-width: 300px;
+    margin-left: 10px;
+  }
 }
 
 .season-data-container {

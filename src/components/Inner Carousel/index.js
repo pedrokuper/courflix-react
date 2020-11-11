@@ -16,33 +16,35 @@ class InnerCarousel extends React.Component {
       swipeToSlide: true,
       centerMode: false,
       className: "slides",
-      lazyLoad: true,
       edgeFriction: 5,
+      lazyLoad: "progressive",
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1280,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             infinite: true,
-            dots: true,
+            centerMode: false,
           },
         },
         {
-          breakpoint: 720,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             arrows: false,
+            centerMode: false,
           },
         },
         {
-          breakpoint: 480,
+          breakpoint: 460,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
+            centerMode: false,
+            draggable: true,
           },
         },
       ],
@@ -56,7 +58,7 @@ class InnerCarousel extends React.Component {
           {content.map((content, key) => {
             const { thumbnail, title, progress } = content;
             return (
-              <>
+              <div className="card-wrapper">
                 <Card
                   thumbnail={thumbnail}
                   alt={title}
@@ -65,7 +67,7 @@ class InnerCarousel extends React.Component {
                   progress={progress}
                   seasonData={seasonData}
                 />
-              </>
+              </div>
             );
           })}
         </Slider>

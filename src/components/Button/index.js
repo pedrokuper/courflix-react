@@ -10,10 +10,10 @@ class Button extends React.Component {
   }
 
   render() {
-    const { title } = this.props;
+    const { title, color } = this.props;
     return (
       <div className={`hero--buttons`}>
-        <button className={`hero-button play my-list`}>{title}</button>
+        <button className={`hero-button ${color}`}>{title}</button>
       </div>
     );
   }

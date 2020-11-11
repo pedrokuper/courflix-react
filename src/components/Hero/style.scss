@@ -1,7 +1,4 @@
-$sm: "360px";
-$md: "768px";
-$lg: "";
-$xl: "";
+@import "../../styles/variables.scss";
 
 .hero {
   padding: 35px;
@@ -18,7 +15,7 @@ $xl: "";
     padding: 25px;
   }
 
-  .hero__content {
+  &__content {
     color: #fff;
     max-width: 850px;
 
@@ -39,8 +36,8 @@ $xl: "";
       }
 
       @media (min-width: $md) {
-        font-size: 3.5rem;
-        margin-top: 100px;
+        font-size: 4.5rem;
+        margin-top: 130px;
         line-height: 4rem;
       }
     }
