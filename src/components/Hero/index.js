@@ -40,15 +40,16 @@ class Hero extends React.Component {
                 <span className="info">{`${seasons} ${seasonLength}`}</span>
               )}
             </div>
-
-            <div className="button-container">
-              <Button title="Reproducir" />
-              <Button
-                handleCallback={() => this.handleCallback2()}
-                title="+ Mi Lista"
-              />
+            <div className="interaction-container">
+              <div className="button-container">
+                <Button title="Reproducir" />
+                <Button
+                  handleCallback={() => this.handleCallback2()}
+                  title="+ Mi Lista"
+                />
+              </div>
+              <div className="icons-container">{socialIcons && <Icons />}</div>
             </div>
-            <div className="icons-container">{socialIcons && <Icons />}</div>
             <p className="hero--description">{plot}</p>
           </div>
         </section>

@@ -1,25 +1,6 @@
 @import "../../styles/variables.scss";
 
-// TODO not working
 
-.slick-list {
-  @media (min-width: $md) {
-    margin-right: -385px;
-    overflow: hidden;
-  }
-  @media (min-width: $lg) {
-    margin-right: -100px;
-    overflow: hidden;
-  }
-  @media (min-width: $xl) {
-    margin-right: -600px;
-    overflow: hidden;
-  }
-  @media (min-width: $xxl) {
-    margin-right: -50px;
-    overflow: hidden;
-  }
-}
 
 .slides {
   position: relative;

@@ -16,14 +16,33 @@ class InnerCarousel extends React.Component {
       swipeToSlide: true,
       centerMode: false,
       className: "slides",
-      edgeFriction: 5,
+      edgeFriction: 1,
       lazyLoad: "progressive",
       responsive: [
         {
-          breakpoint: 1280,
+          breakpoint: 1650,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 1024,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            edgeFriction: 1,
             infinite: true,
             centerMode: false,
           },
@@ -31,14 +50,25 @@ class InnerCarousel extends React.Component {
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
             centerMode: false,
+            draggable: true,
           },
         },
         {
-          breakpoint: 460,
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            centerMode: false,
+            draggable: true,
+          },
+        },
+        {
+          breakpoint: 360,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

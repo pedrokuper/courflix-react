@@ -1,11 +1,25 @@
 @import "../../styles/variables.scss";
 
-.carousel-thumbnail {
-  max-width: 350px;
+.carousel-thumbnail,
+.progress-bar {
+  @media (min-width: $sm) {
+    max-width: 350px;
+  }
+  @media (min-width: $sm-m) {
+    max-width: 295px;
+  }
+  @media (min-width: $md) {
+    max-width: 355px;
+  }
+  @media (min-width: $lg) {
+    max-width: 325px;
+  }
 
-  @media (max-width: $sm) {
+  @media (min-width: $xl) {
     max-width: 300px;
-    margin-left: 10px;
+  }
+  @media (min-width: $xxl) {
+    max-width: 340px;
   }
 }
 
@@ -13,13 +27,7 @@
   background-color: #cccccc;
   height: 5px;
   margin-top: 15px;
-  max-width: 350px;
   box-sizing: content-box;
-
-  @media (max-width: $sm) {
-    max-width: 300px;
-    margin-left: 10px;
-  }
 }
 
 .season-data-container {
