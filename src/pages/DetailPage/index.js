@@ -76,7 +76,7 @@ class DetailPage extends React.Component {
             socialIcons={true}
           />
         </section>
-        {episodes && <Carousel content={episodes} seasonData={true} />}
+        {episodes && <Carousel content={episodes} seasonData={true} unslick />}
       </main>
     );
   }

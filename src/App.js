@@ -41,15 +41,18 @@ class App extends React.Component {
           title="Series"
           content={this.handleContent("series")}
           id="series"
+          unslick={false}
         />
         <Carousel
           title="Seguir viendo contenido de Pedro"
           content={this.handleContent("keepWatching")}
+          unslick={false}
         />
         <Carousel
           id="last-added"
           title="Agregados recientemente"
           content={this.handleContent("lastAdded")}
+          unslick={false}
         />
       </>
     );

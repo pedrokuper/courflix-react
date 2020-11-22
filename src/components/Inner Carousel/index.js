@@ -1,11 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import "./style.scss";
+import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick-theme.css";
+
+import "./style.scss";
+
 import Card from "../Card";
 
 class InnerCarousel extends React.Component {
   render() {
+    const { unslick } = this.props;
     const settings = {
       arrows: true,
       infinite: true,
@@ -16,6 +20,8 @@ class InnerCarousel extends React.Component {
       swipeToSlide: true,
       centerMode: false,
       className: "slides",
+      mobileFirst: true,
+
       edgeFriction: 1,
       lazyLoad: "progressive",
       responsive: [
@@ -60,7 +66,7 @@ class InnerCarousel extends React.Component {
         {
           breakpoint: 640,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
             centerMode: false,
@@ -69,13 +75,15 @@ class InnerCarousel extends React.Component {
         },
         {
           breakpoint: 360,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            centerMode: false,
-            draggable: true,
-          },
+          settings: !unslick
+            ? {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: false,
+                draggable: true,
+              }
+            : "unslick",
         },
       ],
     };
@@ -87,16 +95,21 @@ class InnerCarousel extends React.Component {
         <Slider {...settings}>
           {content.map((content, key) => {
             const { thumbnail, title, progress } = content;
+
             return (
               <div className="card-wrapper">
-                <Card
-                  thumbnail={thumbnail}
-                  alt={title}
-                  key={key}
-                  content={content}
-                  progress={progress}
-                  seasonData={seasonData}
-                />
+                <Link
+                  to={`/content/${title.toLowerCase().replace(/\s/g, "-")}`}
+                >
+                  <Card
+                    thumbnail={thumbnail}
+                    alt={title}
+                    key={key}
+                    content={content}
+                    progress={progress}
+                    seasonData={seasonData}
+                  />
+                </Link>
               </div>
             );
           })}

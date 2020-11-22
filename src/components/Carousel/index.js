@@ -5,7 +5,8 @@ import InnerCarousel from "../Inner Carousel";
 
 class Carousel extends React.Component {
   render() {
-    const { title, id, progress, content, seasonData } = this.props;
+    console.log(this.props)
+    const { title, id, progress, content, seasonData, unslick } = this.props;
     return (
       <div className="carousel">
         <div className="nav-point" id={id}></div>
@@ -15,6 +16,7 @@ class Carousel extends React.Component {
             content={content}
             progress={progress}
             seasonData={seasonData}
+            unslick={unslick}
           />
         </section>
       </div>
