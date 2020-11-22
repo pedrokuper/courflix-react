@@ -1,5 +1,11 @@
 @import "../../styles/variables.scss";
 
+#logo {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 2600px;
+}
+
 .navbar-wrapper {
   width: 100%;
   display: flex;

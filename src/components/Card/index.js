@@ -30,7 +30,6 @@ class Card extends React.Component {
           <div className="season-data-container ">
             <h3 className="season-data-title">{content.title}</h3>
             <p className="season-data-description">{content.description}</p>
-            {/* <hr className="season-data-separation" /> */}
           </div>
         )}
       </>

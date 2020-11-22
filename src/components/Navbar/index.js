@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
   render() {
-    const { showNav } = this.props;
+    const { showNav, id } = this.props;
     return (
       <div className="navbar-wrapper">
         <Link to="/">
+          <div id={id}></div>
           <img
             src={logo}
             className="courflix-logo"

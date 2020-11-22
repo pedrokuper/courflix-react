@@ -1,5 +1,16 @@
 @import "../../styles/variables.scss";
 
+#series {
+  position: absolute;
+  margin-top: -90px;
+}
+
+#last-added {
+  position: absolute;
+  display: hidden;
+  margin-top: 32500px;
+}
+
 .carousel {
   background-color: rgb(110, 110, 110);
   padding: 20px;

@@ -28,7 +28,8 @@ class Hero extends React.Component {
 
     return (
       <div className="hero" style={heroImg}>
-        <section id="inicio">
+        <div className="inicio" id={this.props.id}></div>
+        <section>
           <div className="hero__content">
             <h1 className="hero__title">{title}</h1>
 
