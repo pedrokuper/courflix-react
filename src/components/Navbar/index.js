@@ -1,11 +1,24 @@
 import React from "react";
-import "./style.scss";
-import logo from "../../assets/logo/courflix-logo.png";
+
 import { Link } from "react-router-dom";
+import { slide as Menu } from "react-burger-menu";
+import logo from "../../assets/logo/courflix-logo.png";
+import "./style.scss";
 
 class Navbar extends React.Component {
+  state = {
+    isOpen: false,
+  };
+
+  handleClick() {
+    this.setState({
+      isOpen: true,
+    });
+  }
+
   render() {
     const { showNav, id } = this.props;
+    console.log(window.innerWidth);
     return (
       <div className="navbar-wrapper">
         <Link to="/">
