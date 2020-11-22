@@ -2,14 +2,16 @@
 
 .carousel-thumbnail,
 .progress-bar {
+  margin: 0 auto;
   @media (min-width: $sm) {
+    margin: 0 auto;
     max-width: 350px;
   }
   @media (min-width: $sm-m) {
     max-width: 295px;
   }
   @media (min-width: $md) {
-    max-width: 355px;
+    max-width: 360px;
   }
   @media (min-width: $lg) {
     max-width: 325px;
