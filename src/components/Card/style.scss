@@ -3,26 +3,7 @@
 .carousel-thumbnail,
 .progress-bar {
   margin: 0 auto;
-  @media (min-width: $sm) {
-    margin: 0 auto;
-    max-width: 320px;
-  }
-  @media (min-width: $sm-m) {
-    max-width: 295px;
-  }
-  @media (min-width: $md) {
-    max-width: 360px;
-  }
-  @media (min-width: $lg) {
-    max-width: 325px;
-  }
-
-  @media (min-width: $xl) {
-    max-width: 300px;
-  }
-  @media (min-width: $xxl) {
-    max-width: 340px;
-  }
+  max-width: 97%;
 }
 
 .progress-bar {
