@@ -5,7 +5,6 @@ import InnerCarousel from "../Inner Carousel";
 
 class Carousel extends React.Component {
   render() {
-    console.log(this.props);
     const { title, id, progress, content, seasonData, unslick } = this.props;
     return (
       <div className="carousel">

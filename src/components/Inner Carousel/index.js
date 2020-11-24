@@ -99,7 +99,7 @@ class InnerCarousel extends React.Component {
             const { thumbnail, title, progress } = content;
 
             return (
-              <div className="card-wrapper">
+              <div key={key} className="card-wrapper">
                 <Link
                   to={`/content/${title.toLowerCase().replace(/\s/g, "-")}`}
                 >

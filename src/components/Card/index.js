@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { AiOutlinePlayCircle } from "react-icons/ai";
 import "./style.scss";
 
 class Card extends React.Component {

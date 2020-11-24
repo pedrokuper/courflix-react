@@ -16,10 +16,6 @@ class App extends React.Component {
     return getContent;
   }
 
-  handleCallback() {
-    console.log("Abuelo");
-  }
-
   render() {
     const [firstHero] = heroContent;
 

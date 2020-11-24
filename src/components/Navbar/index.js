@@ -11,8 +11,9 @@ class Navbar extends React.Component {
   };
 
   handleClick() {
+    const { isOpen } = this.state;
     this.setState({
-      isOpen: true,
+      isOpen: !isOpen,
     });
   }
 
@@ -42,9 +43,6 @@ class Navbar extends React.Component {
               <a href="#last-added">
                 <li className="navbar-link">Agregados recientemente</li>
               </a>
-              <Link to="/mylist">
-                <li className="navbar-link">Mi lista</li>
-              </Link>
             </ul>
           </nav>
         )}
