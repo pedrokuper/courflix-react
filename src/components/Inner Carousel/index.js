@@ -64,14 +64,16 @@ class InnerCarousel extends React.Component {
           },
         },
         {
-          breakpoint: 640,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            arrows: false,
-            centerMode: false,
-            draggable: true,
-          },
+          breakpoint: 460,
+          settings: !unslick
+            ? {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: false,
+                draggable: true,
+              }
+            : "unslick",
         },
         {
           breakpoint: 360,
