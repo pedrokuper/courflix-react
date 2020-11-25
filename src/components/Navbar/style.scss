@@ -11,6 +11,17 @@
   top: 36px;
 }
 
+.responsive-logo {
+  position: relative;
+  display: flex;
+  .logo {
+    position: absolute;
+    left: 195px;
+    top: 36px;
+    height: 40px;
+  }
+}
+
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #ffffff;
@@ -55,7 +66,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  display: inline-flex;
 }
 
 /* Styling of overlay */
@@ -64,7 +75,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 //NAVBAR CSS
+.nav-burger {
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  justify-content: space-between;
+}
 
+.burger-menu-link {
+  margin: 15px 0px;
+  text-decoration: none;
+  color: white;
+}
 .navbar-wrapper {
   width: 100%;
   display: flex;
