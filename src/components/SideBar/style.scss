@@ -1,13 +1,4 @@
 .sidebar-container {
-  position: fixed;
-  z-index: 200;
-  height: 100%;
-  padding: 0px 10px;
-  max-width: 360px;
-  margin-top: 80px;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.95);
   color: #fff;
   .sidebar {
     display: flex;
@@ -16,9 +7,10 @@
     align-items: space-around;
     flex-shrink: 0;
     .sidebar-elemenet {
-      font-size: 2rem;
+      font-size: 1.4rem;
       margin-top: 20px;
       padding: 10px;
+      list-style-type: none;
     }
   }
 }

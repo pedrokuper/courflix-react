@@ -1,5 +1,5 @@
 import React from "react";
-import BurgerMenu from "../BurgerMenu";
+import { slide as Menu } from "react-burger-menu";
 import SideBar from "../SideBar";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/courflix-logo.png";
@@ -11,16 +11,14 @@ class Navbar extends React.Component {
     console.log(window.innerWidth);
     return (
       <div className="navbar-wrapper">
-        <BurgerMenu />
-        <SideBar />
-        <Link to="/">
-          <div id={id}></div>
-          <img
-            src={logo}
-            className="courflix-logo"
-            alt="Logo de Courflix"
-          ></img>
-        </Link>
+        <div className="align">
+          <Link to="/">
+            <img src={logo} className="courflix-logo" alt="Logo de Courflix" />
+          </Link>
+          <Menu>
+            <SideBar />
+          </Menu>
+        </div>
         {showNav && (
           <nav className="navbar">
             <ul className="navbar-list">

@@ -31,7 +31,6 @@ class App extends React.Component {
           year={year}
           duration={duration}
           similarity={similarity}
-          handleCallback={() => this.handleCallback()}
         />
         <Carousel
           title="Series"
