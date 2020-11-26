@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import content from "../../data/content.json";
-import Button from "../../components/Button";
 import "./style.scss";
 import Hero from "../../components/Hero";
 import Carousel from "../../components/Carousel";

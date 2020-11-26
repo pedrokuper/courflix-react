@@ -1,0 +1,18 @@
+$burger-width: 48px;
+
+.burger {
+  background-color: transparent;
+  width: $burger-width;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-shrink: 0;
+
+  &__lines {
+    background-color: #fff;
+    width: 100%;
+    height: 3.5px;
+  }
+}
