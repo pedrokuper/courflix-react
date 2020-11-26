@@ -13,6 +13,7 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-animenu": "^1.0.11",
+    "react-animated-burgers": "^1.2.8",
     "react-burger-menu": "^2.9.0",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
@@ -22,6 +23,7 @@
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.9",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
