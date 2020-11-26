@@ -1,5 +1,6 @@
 import React from "react";
 import BurgerMenu from "../BurgerMenu";
+import SideBar from "../SideBar";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/courflix-logo.png";
 import "./style.scss";
@@ -10,6 +11,8 @@ class Navbar extends React.Component {
     console.log(window.innerWidth);
     return (
       <div className="navbar-wrapper">
+        <BurgerMenu />
+        <SideBar />
         <Link to="/">
           <div id={id}></div>
           <img
@@ -18,7 +21,6 @@ class Navbar extends React.Component {
             alt="Logo de Courflix"
           ></img>
         </Link>
-        <BurgerMenu />
         {showNav && (
           <nav className="navbar">
             <ul className="navbar-list">
