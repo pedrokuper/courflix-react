@@ -20,9 +20,6 @@
   }
 
   .navbar {
-    @media (max-width: $md) {
-      display: none;
-    }
     .navbar-list {
       display: flex;
       list-style: none;
@@ -37,6 +34,9 @@
       }
 
       .navbar-link {
+        @media (max-width: $md) {
+          display: none;
+        }
         @media (min-width: $md) {
           font-size: 1rem;
         }
@@ -58,10 +58,6 @@
   height: 30px;
   left: 36px;
   top: 30px;
-
-  @media (min-width: $md) {
-    display: none;
-  }
 }
 
 /* Color/shape of burger icon bars */

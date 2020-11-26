@@ -15,12 +15,12 @@ class Navbar extends React.Component {
           <Link to="/">
             <img src={logo} className="courflix-logo" alt="Logo de Courflix" />
           </Link>
-          <Menu>
-            <SideBar />
-          </Menu>
         </div>
         {showNav && (
           <nav className="navbar">
+            <Menu>
+              <SideBar />
+            </Menu>
             <ul className="navbar-list">
               <a href="#inicio">
                 <li className="navbar-link">Inicio</li>
