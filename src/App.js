@@ -4,12 +4,12 @@ import content from "./data/content.json";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Carousel from "./components/Carousel";
-
+import Footer from "./components/Footer";
 import heroContent from "./data/hero.json";
 
 class App extends React.Component {
   handleContent(type) {
-    const getContent = content.filter((category) => {
+    const getContent = content.filter(category => {
       if (category.type === type) return category;
     });
 
@@ -49,6 +49,7 @@ class App extends React.Component {
           content={this.handleContent("lastAdded")}
           unslick={false}
         />
+        <Footer />
       </>
     );
   }
