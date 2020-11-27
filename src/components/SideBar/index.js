@@ -15,13 +15,19 @@ class SideBar extends React.Component {
             </li>
           </a>
           <a href="#series">
-            <li className="sidebar-elemenet">Series</li>
+            <li onClick={() => this.handleMenu()} className="sidebar-elemenet">
+              Series
+            </li>
           </a>
           <a href="#peliculas">
-            <li className="sidebar-elemenet">Películas</li>
+            <li onClick={() => this.handleMenu()} className="sidebar-elemenet">
+              Películas
+            </li>
           </a>
           <a href="#last-added">
-            <li className="sidebar-elemenet">Agregados recientemente</li>
+            <li onClick={() => this.handleMenu()} className="sidebar-elemenet">
+              Agregados recientemente
+            </li>
           </a>
         </ul>
       </nav>

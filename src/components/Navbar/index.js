@@ -11,6 +11,15 @@ class Navbar extends React.Component {
     console.log("padre");
     this.setState({ menuOpen: false });
   }
+
+  handleStateChange(state) {
+    this.setState({ menuOpen: state.isOpen });
+  }
+
+  // This can be used to close the menu, e.g. when a user clicks a menu item
+  closeMenu() {
+    this.setState({ menuOpen: false });
+  }
   render() {
     const { showNav, id } = this.props;
     return (
@@ -22,7 +31,10 @@ class Navbar extends React.Component {
         </div>
         {showNav && (
           <nav className="navbar">
-            <Menu isOpen={false}>
+            <Menu
+              isOpen={this.state.menuOpen}
+              onStateChange={state => this.handleStateChange(state)}
+            >
               <SideBar handleCallback={() => this.closeMenu()} />
             </Menu>
             <ul className="navbar-list">
