@@ -10,10 +10,18 @@ class Footer extends React.Component {
     return (
       <footer className="footer">
         <div className="social-media">
-          <FaFacebookSquare />
-          <FaInstagram />
-          <FaTwitter />
-          <FaYoutube />
+          <span className="icon">
+            <FaFacebookSquare />
+          </span>
+          <span className="icon">
+            <FaInstagram />
+          </span>
+          <span className="icon">
+            <FaTwitter />
+          </span>
+          <span className="icon">
+            <FaYoutube />
+          </span>
         </div>
         <div className="footer-items-container">
           <div className="footer-item">

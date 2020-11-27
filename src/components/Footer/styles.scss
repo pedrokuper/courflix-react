@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  color: white;
+  padding: 35px;
+
+  @media (min-width: $sm) {
+    padding: 20px;
+  }
+
+  .social-media {
+    margin-left: 45px;
+    font-size: 2rem;
+    color: #ccc;
+
+    @media (min-width: $sm) {
+      margin-left: 20px;
+      font-size: 1.3rem;
+    }
+    .icon {
+      margin-right: 25px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .footer-items-container {
+    display: flex;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+    .footer-item {
+      span {
+        display: block;
+        margin: 20px 30px;
+        font-size: 0.8rem;
+        @media (min-width: $sm) {
+          margin: 20px 35px;
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+
+  a {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px 45px;
+  }
+
+  p {
+    margin: 35px 45px;
+    font-size: 0.7rem;
+  }
+}
