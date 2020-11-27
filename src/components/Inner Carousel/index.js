@@ -31,8 +31,8 @@ class InnerCarousel extends React.Component {
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: true,
-            centerMode: false,
-          },
+            centerMode: false
+          }
         },
         {
           breakpoint: 1440,
@@ -40,8 +40,8 @@ class InnerCarousel extends React.Component {
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: true,
-            centerMode: false,
-          },
+            centerMode: false
+          }
         },
         {
           breakpoint: 1024,
@@ -50,8 +50,8 @@ class InnerCarousel extends React.Component {
             slidesToScroll: 1,
             edgeFriction: 1,
             infinite: true,
-            centerMode: false,
-          },
+            centerMode: false
+          }
         },
         {
           breakpoint: 768,
@@ -60,8 +60,8 @@ class InnerCarousel extends React.Component {
             slidesToScroll: 1,
             arrows: false,
             centerMode: false,
-            draggable: true,
-          },
+            draggable: true
+          }
         },
         {
           breakpoint: 460,
@@ -71,23 +71,23 @@ class InnerCarousel extends React.Component {
                 slidesToScroll: 1,
                 arrows: false,
                 centerMode: false,
-                draggable: true,
+                draggable: true
               }
-            : "unslick",
+            : "unslick"
         },
         {
-          breakpoint: 360,
+          breakpoint: 359,
           settings: !unslick
             ? {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
                 centerMode: false,
-                draggable: true,
+                draggable: true
               }
-            : "unslick",
-        },
-      ],
+            : "unslick"
+        }
+      ]
     };
 
     const { content, seasonData } = this.props;

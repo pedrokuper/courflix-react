@@ -6,9 +6,13 @@ import logo from "../../assets/logo/courflix-logo.png";
 import "./style.scss";
 
 class Navbar extends React.Component {
+  state = { menuOpen: false };
+  closeMenu() {
+    console.log("padre");
+    this.setState({ menuOpen: false });
+  }
   render() {
     const { showNav, id } = this.props;
-    console.log(window.innerWidth);
     return (
       <div className="navbar-wrapper">
         <div className="align">
@@ -18,8 +22,8 @@ class Navbar extends React.Component {
         </div>
         {showNav && (
           <nav className="navbar">
-            <Menu>
-              <SideBar />
+            <Menu isOpen={false}>
+              <SideBar handleCallback={() => this.closeMenu()} />
             </Menu>
             <ul className="navbar-list">
               <a href="#inicio">

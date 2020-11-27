@@ -2,12 +2,17 @@ import React from "react";
 import "./style.scss";
 
 class SideBar extends React.Component {
+  handleMenu() {
+    this.props.handleCallback();
+  }
   render() {
     return (
       <nav className="sidebar-container">
         <ul className="sidebar">
           <a href="#inicio">
-            <li className="sidebar-elemenet">Inicio</li>
+            <li onClick={() => this.handleMenu()} className="sidebar-elemenet">
+              Inicio
+            </li>
           </a>
           <a href="#series">
             <li className="sidebar-elemenet">Series</li>
