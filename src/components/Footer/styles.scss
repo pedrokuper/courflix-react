@@ -1,22 +1,26 @@
 @import "../../styles/variables.scss";
 
 .footer {
-  color: white;
-  padding: 35px;
-
+  color: #ccc;
+  padding: 15px;
+  margin-left: 55px;
+  margin-top: 3rem;
   @media (min-width: $sm) {
-    padding: 20px;
+    padding: 15px;
+    margin-left: 25px;
   }
 
   .social-media {
-    margin-left: 45px;
     font-size: 2rem;
     color: #ccc;
 
     @media (min-width: $sm) {
-      margin-left: 20px;
-      font-size: 1.3rem;
+      font-size: 0.9rem;
     }
+    @media (min-width: $md) {
+      font-size: 1.4rem;
+    }
+
     .icon {
       margin-right: 25px;
 
@@ -28,30 +32,85 @@
 
   .footer-items-container {
     display: flex;
-    align-items: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 15px;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    @media (min-width: $sm) {
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 360px;
+      font-size: 0.55rem;
+      margin-top: 10px;
+    }
+    @media (min-width: $md) {
+      font-size: 0.65rem;
+      max-width: 100%;
+    }
+    @media (min-width: $lg) {
+      font-size: 0.8rem;
+      max-width: 100%;
+    }
+
+    .item-4 {
+      margin-top: 25px;
+    }
     .footer-item {
+      display: flex;
+      flex-direction: column;
+      margin-right: 18rem;
+      justify-content: space-evenly;
+
+      @media (min-width: $sm) {
+        max-width: 85px;
+        margin-right: 35px;
+      }
+      @media (min-width: $md) {
+        margin-right: 40px;
+        max-width: 100%;
+      }
+
       span {
         display: block;
-        margin: 20px 30px;
-        font-size: 0.8rem;
+        margin-top: 15px;
+        line-height: 35px;
+
         @media (min-width: $sm) {
-          margin: 20px 35px;
-          font-size: 0.4rem;
+          line-height: 15px;
+        }
+        @media (min-width: $md) {
+          line-height: 15px;
         }
       }
     }
   }
 
   a {
-    border: 1px solid #ccc;
+    display: inline-block;
+    margin-top: 2rem;
+    border: 1px solid rgb(179, 179, 179);
     padding: 10px;
-    margin: 15px 45px;
+    @media screen and (min-width: $sm) {
+      font-size: 0.65rem;
+      padding: 5px 10px;
+    }
+    @media (min-width: $md) {
+      font-size: 0.85rem;
+      padding: 10px 10px;
+    }
   }
 
   p {
-    margin: 35px 45px;
-    font-size: 0.7rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    @media (min-width: $sm) {
+      font-size: 0.6rem;
+    }
+    @media (min-width: $md) {
+      font-size: 0.7rem;
+    }
   }
 }

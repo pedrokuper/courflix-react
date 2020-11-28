@@ -24,7 +24,7 @@ class Footer extends React.Component {
           </span>
         </div>
         <div className="footer-items-container">
-          <div className="footer-item">
+          <div className="footer-item item-4">
             <span>Audio y subtítulos</span>
             <span>Prensa</span>
             <span>Privacidad</span>
@@ -46,8 +46,8 @@ class Footer extends React.Component {
             <span>Información corporativa</span>
           </div>
         </div>
-        <a href="">Código de servicio</a>
-        <p>Copyright - PedroK 2020</p>
+        <a href="http://github.com/pedrokuper">Código de servicio</a>
+        <p>Made with (´▽`ʃ♡ƪ) </p>
       </footer>
     );
   }

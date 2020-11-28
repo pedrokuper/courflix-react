@@ -4,6 +4,7 @@ import content from "../../data/content.json";
 import "./style.scss";
 import Hero from "../../components/Hero";
 import Carousel from "../../components/Carousel";
+import Footer from "../../components/Footer";
 
 class DetailPage extends React.Component {
   state = {
@@ -76,6 +77,7 @@ class DetailPage extends React.Component {
           />
         </section>
         {episodes && <Carousel content={episodes} seasonData={true} unslick />}
+        <Footer />
       </main>
     );
   }
