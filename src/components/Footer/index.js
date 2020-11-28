@@ -50,7 +50,7 @@ class Footer extends React.Component {
           Código de servicio
         </a>
         <p>
-          Made with 🐱‍🏍 by
+          Made with 🐱‍🏍 by &nbsp;{" "}
           <a className="footer-personal" href="http://github.com/pedrokuper">
             _pedrokuper
           </a>
