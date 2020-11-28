@@ -2,10 +2,9 @@
 
 .hero {
   padding: 35px;
-  height: 100%;
+  background-color: white;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 
   @media (max-width: $sm) {
     padding: 15px;
@@ -42,12 +41,12 @@
       @media (min-width: $md) {
         font-size: 4.5rem;
         margin-top: 130px;
-        line-height: 4rem;
+        line-height: 4.5rem;
       }
       @media (min-width: $lg) {
         font-size: 5.5rem;
         margin-top: 130px;
-        line-height: 5.6rem;
+        line-height: 5.9rem;
       }
     }
 
@@ -97,7 +96,7 @@
     .hero--description {
       margin-top: 15px;
       line-height: 2.25rem;
-      font-weight: 600;
+
       font-size: 1.3rem;
       text-align: left;
 
@@ -109,14 +108,22 @@
       }
 
       @media (min-width: $md) {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2.5rem;
         text-align: left;
         margin-top: 20px;
       }
     }
     .interaction-container {
-      display: inline-flex;
+      display: flex;
+      flex-direction: row;
+      .button-container {
+        display: flex;
+
+        @media (min-width: $sm) {
+          display: inline-flex;
+        }
+      }
       .icons-container {
         display: flex;
         align-items: center;

@@ -43,11 +43,8 @@ class Hero extends React.Component {
             </div>
             <div className="interaction-container">
               <div className="button-container">
-                <Button title="Reproducir" />
-                <Button
-                  handleCallback={() => this.handleCallback2()}
-                  title="+ Mi Lista"
-                />
+                <Button title="Reproducir" color="red" />
+                <Button title="+ Mi Lista" />
               </div>
               <div className="icons-container">{socialIcons && <Icons />}</div>
             </div>

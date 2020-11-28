@@ -46,8 +46,15 @@ class Footer extends React.Component {
             <span>Información corporativa</span>
           </div>
         </div>
-        <a href="http://github.com/pedrokuper">Código de servicio</a>
-        <p>Made with (´▽`ʃ♡ƪ) </p>
+        <a href="" className="footer-link">
+          Código de servicio
+        </a>
+        <p>
+          Made with 🐱‍🏍 by
+          <a className="footer-personal" href="http://github.com/pedrokuper">
+            _pedrokuper
+          </a>
+        </p>
       </footer>
     );
   }

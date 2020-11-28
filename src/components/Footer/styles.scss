@@ -88,7 +88,7 @@
     }
   }
 
-  a {
+  .footer-link {
     display: inline-block;
     margin-top: 2rem;
     border: 1px solid rgb(179, 179, 179);
@@ -105,12 +105,20 @@
 
   p {
     margin-top: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    .footer-personal {
+      &:hover {
+        color: lightblue;
+      }
+    }
     @media (min-width: $sm) {
       font-size: 0.6rem;
     }
     @media (min-width: $md) {
       font-size: 0.7rem;
+    }
+    @media (min-width: lg) {
+      font-size: 0.85rem;
     }
   }
 }

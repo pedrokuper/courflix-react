@@ -59,7 +59,10 @@
   left: 36px;
   top: 23px;
 
-  @media (min-width: $md) {
+  @media (max-width: $sm-burger) {
+    display: none;
+  }
+  @media (min-width: $md-burger) {
     display: none;
   }
 }
