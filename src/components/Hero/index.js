@@ -20,7 +20,7 @@ class Hero extends React.Component {
     } = this.props;
 
     const heroImg = {
-      backgroundImage: `linear-gradient(-45deg, rgba(0, 0, 0, 0.0001) 25%, #000000 100%),url(${hero})`,
+      backgroundImage: `linear-gradient(-45deg, rgba(0, 0, 0, 0.0001) 25%, #000000 130%),url(${hero})`,
     };
 
     const seasonLength = seasons > 1 ? "temporadas" : "temporada";
