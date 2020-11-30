@@ -56,7 +56,12 @@
     }
 
     .item-4 {
-      margin-top: 25px;
+      @media (min-width: $sm) {
+        margin-top: 16px;
+      }
+      @media (min-width: $md) {
+        margin-top: 30px;
+      }
     }
     .footer-item {
       display: flex;
