@@ -18,4 +18,5 @@ El mismo consistía en crear un clon (a nivel estético) de **Netflix** que deb�
 
 
 
-El deploy del proyecto acá: [Courflix](https://react-courflix-pk.vercel.app/)
+## El deploy del proyecto acá: 
+[Courflix](https://react-courflix-pk.vercel.app/)
