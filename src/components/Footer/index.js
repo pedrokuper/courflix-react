@@ -52,7 +52,7 @@ class Footer extends React.Component {
         <p>
           Made with &nbsp;
           <span role="img" arial-label="emoji">
-            🐱‍🏍 
+            🐱‍🏍
           </span>
           by &nbsp;
           <a className="footer-personal" href="http://github.com/pedrokuper">

@@ -2,14 +2,14 @@ Este proyecto es el trabajo final del curso **Desarrollo Frontend** incial dicta
 
 El mismo consistía en crear un clon (a nivel estético) de **Netflix** que debía ser responsive y utilizar React para desarrollar una aplicación construida a base de componentes.
 
-### Tecnologías utilizadas en el proyecto:
+### Tecnologías utilizadas
 
 - React
 - Javascript
 - Sass
 - Flexbox
 
-### Libererías utilizadas en el proyecto:
+### Libererías utilizadas
 
 - [react-router-dom](https://reactrouter.com/)
 - [react-slick](https://react-slick.neostack.com/)
